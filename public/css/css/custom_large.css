@@ -1,0 +1,39 @@
+@media only screen and (min-width: 1550px){
+    #cadastrar{
+		right: 3.4vmax;
+		height: 2.3vmax;
+	}
+    
+    .input-class{
+	    width:17.1vmax;
+	    font-size: 1.1em;
+	}
+	
+	#form-nome{
+		margin-left: calc(100% - 82%);
+	}
+
+	#form-email{
+		margin-left: calc(100% - 72.4%);
+	}
+	
+	#p_promo{
+		margin-right: calc(100% - 78%);
+		font-size: 1.4em;
+	}
+	
+	#off_15 {
+    	width: 18vmax;
+	}
+
+	#momentum {
+    	font-size: 3em;
+	}
+	
+	.btn-custom {
+	    font-size: 19px;
+	}
+
+
+}
+

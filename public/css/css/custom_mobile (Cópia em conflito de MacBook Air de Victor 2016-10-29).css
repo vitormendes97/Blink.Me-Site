@@ -1,0 +1,304 @@
+@media only screen and (max-width: 767px) { 
+
+.borderDash {
+    border: 2px dashed;
+    border-bottom: none;
+    margin: 10px;
+}
+.borderDash2 {
+        border: 2px dashed;
+    border-top: none;
+    margin: 0px 10px 20px 24px;
+}
+.pos-top{
+ height: inherit;
+     padding: 0px;
+}
+.vouncher {
+    background-image: none;
+}
+#top01{
+	height: 2.3vh;
+	background:#FCAF17;
+ }
+
+#logo{
+	width: 50%;
+	position: absolute;
+}
+
+.navbar-header{
+	background-color: #F15922;
+	background-image: url('../img/logo2.jpg');
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+	border:none;
+	background: #F15922;
+}
+
+.navhref > a{
+	color: #fff;
+}
+
+.Reklame-font {
+	font-size: 35px;
+	text-align: center;
+}
+
+.input-class{
+    width: 57%;
+    margin-left: 20%;
+}
+
+#btn-cadastrar{
+	margin-left: 37%;
+    margin-top: 5%;
+}
+
+.mobile-cad{
+	padding-top: 2vh;
+}
+#vouncher{
+	width: 100%;
+            
+}
+
+#firola{
+    height: 455px;
+    position: relative;
+    top: -1px;
+    left: 0px;
+}
+
+#vouncher-p1{
+	color: #fff;
+	font-size: 33px;
+	position: relative;
+	right: 1vh;
+
+}
+#vouncher-p2{
+	color: #fff;
+	font-size: 15px;
+	font-family: MyRiad;
+	letter-spacing: 1px;
+	padding-right: 10px;
+	line-height: 22px;
+	right: 1vh;
+}
+
+
+.pull-down{
+	position: relative;
+	top: 60px;
+	margin: 0 auto;
+	left: 17px;
+}
+
+#vouncher-input{
+	top:80px;
+	width: 100%;
+	margin-right: 100px;
+}
+
+#firola2{
+	height: 468px;
+    left: -7px;
+    top:0;
+}
+
+#promocao{
+    margin-right: 2%;
+}
+
+#pos-carousel > .row > .col-md-12 > p{
+	font-size: 17px;
+}
+
+
+.circle-content-list {
+    font-size: 18px;
+    text-align: left;
+}
+
+#circle-content{
+	width: 110%;
+	margin-left: -16px;
+}
+
+#blinkmeclub {
+	margin-left: 30%;
+    width: 40%;
+    margin-top: 7%;
+}
+
+#circle_thumb {
+    margin-left: 26%;
+    width: 50%;
+}
+
+#circle_desc{
+	margin-left: 4%;
+}
+
+#circle_desc_2 {
+    margin-left: 4%;
+}
+
+.ph > p {
+     margin-left: 7%;
+    font-size: 16px;
+    padding: 5%;
+
+}
+
+.borda {
+    border-left: none;
+}
+
+dt,dl{
+	font-size: 16px;
+}
+
+dt {
+	margin-right: 7%;
+}
+
+dl{
+    background: #F2A68B;
+    padding: 4%;
+    width: 62%;
+    margin: 0 auto;
+}
+
+#vantagens{
+	text-align: center;
+}
+
+#col-cosmetics{
+	margin-left: 0;
+}
+
+#col-atelier{
+	margin-left: 0;
+}
+
+#col-lab{
+	margin-left: 0;
+}
+
+#col-studio{
+	margin-left: 0;
+}
+
+	#circle-cosmetics{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+
+#circle-atelier{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+
+#circle-lab{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+#circle-studio{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+
+#endereco {
+     line-height: 1; 
+     text-align: center;
+}
+#piso{
+	text-align: center;
+}
+
+#breve{
+	text-align: center;
+}
+#ios-store {
+    width: 73%;
+    margin-top: 1.8%;
+    margin-left: -3%;
+}
+}
+
+
+
+
+
+
+/*TABLETS*/
+
+
+
+
+@media only screen and (max-width: 990px) and (min-width: 768px){
+	
+	.navbar-header{
+		background-color: #F15922;
+		background-image: url('../img/logo2.jpg');
+		background-position: center;
+		background-size: contain;
+	    background-repeat: no-repeat;
+	    width: 39%;
+}
+	.col-sm-fluid{
+		background-color: #F15922;
+	}
+	
+	#circle-cosmetics{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+
+#circle-atelier{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+
+#circle-lab{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+
+#circle-studio{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+	.circle-img {
+    width: 45%;
+   
+}
+
+#col-cosmetics{
+	margin-left: 0;
+}
+
+#col-atelier{
+	margin-left: 0;
+}
+
+#col-lab{
+	margin-left: 0;
+}
+
+#col-studio{
+	margin-left: 0;
+}
+
+#circle_thumb {
+    margin-left: 30%;
+    width: 30%;
+    margin-top: 10%;
+}
+}
