@@ -1,4 +1,4 @@
-@media only screen and (max-width: 990px) and (min-width: 230px) {
+@media only screen and (max-width: 767px) and (min-width: 230px) {
 
 .borderDash {
     border: 2px dashed;
@@ -253,8 +253,36 @@ dl{
     width: 100%;
 }
 #entrar-btn {
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#promocao_area input[type=email] {
+    margin: 0 auto;
+}
+
+#promocao_area input[type=text] {
+    margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+}
+
+#club {
+  text-align: justify;
+}
+
+#club .col-md-5 {
+  padding: 40px 0px 0px 0px !important;
+}
+
+#club .col-md-12:last-child {
+  text-align: center;
+}
+
+#manifesto_p {
+    font-size: 52px;
 }
 
 }
@@ -269,7 +297,7 @@ dl{
 
 
 
-@media only screen and (max-width: 990px) and (min-width: 768px){
+@media only screen and (max-width: 990px) and (min-width: 767px){
 
 	.navbar-header{
 		background-color: #F15922;
@@ -351,11 +379,26 @@ background-size: 70%;
     display: block;
      max-width: 100%;
     height: auto;
-    width: 229px !important;
 }
 
 .menu-desktop {
     top: 15%;
     width: 256px;
     left: 66%;
+}
+
+#entrar-btn {
+    padding: 2% 4% 2% 4%;
+    font-size: 19px;
+}
+
+#logo-footer {
+    width: 100%;
+}
+
+.login-circle p:first-child {
+    line-height: 27px;
+}
+
+
 }
