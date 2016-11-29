@@ -285,6 +285,48 @@ footer {
     font-size: 52px;
 }
 
+#check_area {
+    width: 298px;
+}
+
+#check_left {
+    padding-right: 18px;
+}
+
+
+#lab-container {
+    padding: 58px 0px 40px 0px;
+}
+
+#lab-img2 {
+    margin: 0 auto;
+    display: block;
+}
+
+#lab-img1 {
+    margin: 0 auto;
+    display: block;
+}
+
+#lab-container div:nth-child(3) p:first-child {
+    text-align: justify;
+}
+
+.lab-form {
+    width: 100% !important;
+}
+
+#lab-form > .col-md-12 > h3 {
+  text-align: center;
+}
+
+#enviar-lab {
+  text-align: center;
+}
+.textarea {
+  margin: 0 auto;
+}
+
 }
 
 
@@ -400,5 +442,36 @@ background-size: 70%;
     line-height: 27px;
 }
 
+#lab-img2 {
+    margin: 0 auto;
+    display: block;
+    width: 208px;
+}
+
+#lab-img1 {
+    margin: 0 auto;
+    display: block;
+    width: 225px;
+}
+
+
+#lab-form div:nth-child(1) h3 , #requisito1 , #lab-check > p , .form-inline > div , #lab-container div:nth-child(3),
+ #text-area-lab
+{
+  text-align: center;
+}
+
+ #text-area-lab {
+   padding-top: 16%;
+ }
+
+#check_area {
+  margin-left: 28%;
+}
+
+.textarea {
+  margin: 0 auto;
+  display: block;
+}
 
 }

@@ -103,25 +103,48 @@
        </label>
     </div>
   </div>
-
-
-
-        </div>
-      </div>
+  </div>
+</div>
 
       <div class="col-md-12"  id="text-area-lab">
           <div class="col-md-12">
             <label for="">Comentários</label>
           </div>
           <div class="col-md-12">
-            <textarea name="coments" rows="5" cols="80"></textarea>
+            <textarea class="hidden-xs textarea" name="coments" rows="5" cols="80"></textarea>
+              <textarea class="visible-xs textarea" name="coments" rows="5" cols="40"></textarea>
           </div>
-          <div class="col-md-12" style="padding-top: 20px;">
-            <input type="submit" name="" value="ENVIAR" id="enviar-lab">
+          <div class="col-md-12" id="enviar-lab">
+            <input type="submit" name="" value="ENVIAR">
           </div>
       </div>
 
 
     </div>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row" style="background:#A3A3A3;padding-bottom:4%;">
+          <div id="promocao_area">
+            <div class="col-md-12">
+              <p class="text-center">Cadastre seu email e receba promoções exclusivas</p>
+            </div>
+            <div class="col-md-12 col-xs-12 text-center">
+              <form class="form-inline">
+              <div class="form-group">
+                <input type="text" class="form-control"  placeholder="Nome">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <button type="submit" class="btn btn-default">EU QUERO</button>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
   </body>
 </html>

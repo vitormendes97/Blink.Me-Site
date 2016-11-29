@@ -641,12 +641,15 @@ margin-left: -27px;
   padding: 15px 20px 15px 8px;
 }
 
-textarea {
+.textarea {
   border-radius: 5px;
   border: 1px solid #000;
 }
 
-#enviar-lab {
+
+
+
+#enviar-lab > input[type=submit]{
   background: #000;
   border: none;
   color: #fff;
@@ -656,13 +659,13 @@ textarea {
   padding: 5px 20px 5px 20px;
 }
 
-#enviar-lab:hover {
+#enviar-lab > input[type=submit]:hover {
   background: #e6e6e6;
   color: #000;
 }
 
 #text-area-lab > div {
-  padding: 0;
+  padding: 0px 0px 20px 0px;
 }
 
 
