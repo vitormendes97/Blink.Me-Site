@@ -33,4 +33,12 @@ class Home extends CI_Controller {
     $this->load->view('lab');
     $this->load->view('footer');
   }
+
+	public function contato()
+	{
+		$this->load->view('head');
+		$this->load->view('header');
+		$this->load->view('contato');
+		$this->load->view('footer');
+	}
 }
