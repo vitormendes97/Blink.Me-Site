@@ -15,4 +15,5 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="public/bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript" src="public/js/animations.js"></script>
+    <script type="text/javascript" src="public/js/mansory.js"></script>
   </head>

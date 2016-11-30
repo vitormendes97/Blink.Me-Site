@@ -751,5 +751,30 @@ margin-left: -27px;
 }
 
 #atelier_container {
-  padding-top: 10%;
+  padding: 10% 0% 4% 5%;
 }
+
+#img_circle_atelier {
+  width: 100%;
+}
+
+#portifolio_hair > div >  p{
+  font-family: Reklame-Script;
+  font-size: 50px;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*MANSORY*/
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }

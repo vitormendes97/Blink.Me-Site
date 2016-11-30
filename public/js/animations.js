@@ -1,8 +1,17 @@
 $(document).ready(function(){
   toggleClass('#menu','#submenu_geral','open');
-  $('.slick-item').slick({
-     rtl: true
+  // $('.grid').masonry({
+  //
+  // itemSelector: '.grid-item',
+  // columnWidth: 200
+  // });
+
+  $('.grid').masonry({
+    itemSelector: '.grid-item', // use a separate class for itemSelector, other than .col-
+    columnWidth: '.grid-sizer',
+    percentPosition: true
   });
+
 });
 
 
