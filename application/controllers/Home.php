@@ -41,4 +41,21 @@ class Home extends CI_Controller {
 		$this->load->view('contato');
 		$this->load->view('footer');
 	}
+
+	public function club()
+	{
+		$this->load->view('head');
+		$this->load->view('header');
+		$this->load->view('club');
+		$this->load->view('footer');
+	}
+
+	public function atelier()
+	{
+		$this->load->view('head');
+		$this->load->view('header');
+		$this->load->view('atelier');
+		$this->load->view('footer');
+	}
+
 }

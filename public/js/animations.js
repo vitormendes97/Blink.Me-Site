@@ -1,5 +1,8 @@
 $(document).ready(function(){
   toggleClass('#menu','#submenu_geral','open');
+  $('.slick-item').slick({
+     rtl: true
+  });
 });
 
 

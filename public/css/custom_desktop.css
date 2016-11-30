@@ -78,7 +78,7 @@ body{
     z-index: 9999;
 }
 .bgTintaHover img {
-    width: 126px; /*130px before*/
+    width: 126px;
     margin: -40px 0px 15px 35px;
 }
 .tinta:hover > .bgTintaHover {
@@ -344,7 +344,7 @@ body{
 }
 
 .circle-img{
-	    width: 70%;
+	  width: 70%;
     border-radius: 350px;
     margin: 0 auto;
 }
@@ -407,8 +407,8 @@ body{
     padding-bottom: 50px;
 }
 .tinta {
-       padding: 30px 0px;
-    background: url(../img/tinta.jpg);
+    padding: 30px 0px;
+    background: url(../img/tinta.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center 0px;
@@ -649,7 +649,7 @@ margin-left: -27px;
 
 
 
-#enviar-lab > input[type=submit]{
+#enviar-lab > input[type=submit] , #contato_enviar > input[type=submit] {
   background: #000;
   border: none;
   color: #fff;
@@ -659,7 +659,7 @@ margin-left: -27px;
   padding: 5px 20px 5px 20px;
 }
 
-#enviar-lab > input[type=submit]:hover {
+#enviar-lab > input[type=submit]:hover , #contato_enviar > input[type=submit]:hover{
   background: #e6e6e6;
   color: #000;
 }
@@ -682,4 +682,74 @@ margin-left: -27px;
 #check_left {
   float:left;
   padding-right: 100px;
+}
+
+#contato-form input{
+  border: 1px solid #000;
+}
+
+
+#contato_enviar {
+  padding-top: 20px;
+}
+
+#contato_enviar > input[type=submit] {
+  padding: 5px 27px 5px 27px;
+}
+
+
+.mobile_title_center {
+  padding: 0px 0px 12px 0px;
+}
+
+#welcome_club_title {
+  padding: 60px 0px 60px 0px;
+}
+
+#welcome_club_title > h2 {
+  font-size: 51px;
+  color:#000;
+  font-family:Reklame-Script;
+}
+
+.tintaClub {
+    padding: 30px 0px;
+    background: url(../img/tintaBG.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+}
+
+#club_description {
+  color:#888;
+  font-size: 20px;
+}
+
+#club_description p{
+  padding: 7px 0px 7px 0px;
+}
+
+#club_cadastro {
+  color: #000;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 5px 45px 5px 45px;
+}
+
+.club_img {
+  margin: 0 auto;
+  padding: 8% 0% 12% 0%;
+  width: 42%;
+}
+
+#cadastro_area_club {
+  padding-top: 60px;
+}
+
+#blink_atelier_logo {
+  padding: 0% 0% 20% 0%;
+}
+
+#atelier_container {
+  padding-top: 10%;
 }

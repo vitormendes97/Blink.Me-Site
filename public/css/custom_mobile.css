@@ -265,7 +265,7 @@ dl{
     margin: 0 auto;
 }
 
-footer {
+footer, .mobile_title_center , #contato_enviar {
   text-align: center;
 }
 
@@ -327,8 +327,19 @@ footer {
   margin: 0 auto;
 }
 
+#mapa {
+  padding-bottom: 20px;
 }
 
+#club_description > p {
+  text-align: justify;
+}
+
+}
+#cadastro_area_club {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 
 
@@ -456,8 +467,7 @@ background-size: 70%;
 
 
 #lab-form div:nth-child(1) h3 , #requisito1 , #lab-check > p , .form-inline > div , #lab-container div:nth-child(3),
- #text-area-lab
-{
+ #text-area-lab , .mobile_title_center , #contato_enviar{
   text-align: center;
 }
 
@@ -472,6 +482,10 @@ background-size: 70%;
 .textarea {
   margin: 0 auto;
   display: block;
+}
+
+#mapa {
+  padding-bottom: 35px;
 }
 
 }
