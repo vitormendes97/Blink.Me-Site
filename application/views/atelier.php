@@ -1,8 +1,8 @@
   <body>
     <div class="container" id="atelier_container">
-      <div class="col-md-3" >
+      <div class="col-md-3 col-sm-5 descontos" >
 
-        <img src="<?php echo base_url('/public/img/blink_atelier.png') ?>" alt="" id="blink_atelier_logo">
+        <img src="<?php echo base_url('/public/img/blink_atelier.png') ?>" class="img-center" alt="" id="blink_atelier_logo">
 
         <dl class="dl-horizontal lista-vertical" style="background: #F2A68B; padding:4%;margin-bottom: 0; width:100%;">
 
@@ -21,10 +21,11 @@
       <div class="col-md-9" style="padding:4% 0% 0% 4%;">
         <div class="col-md-4">
           <img src="<?php echo base_url('/public/img/atelier/img-circle.png') ?>" id="img_circle_atelier"
-          class="img-circle">
+          class="img-circle img-center">
         </div>
+
         <div class="col-md-8" style="color:#888;">
-          <h2 style="color:#000;">HAIR</h2>
+          <h2 style="color:#000;" class="centralize-responsive">HAIR</h2>
           <p>Como não poderia ser diferente, no nosso Atelier todos os  profissionais especializados em cabelos
           têm o padrão blink.me de qualidade. Isso significa talento, bom gosto e as melhores técnicas para corte,
          coloração, luzes, mechas e penteados.</p>
@@ -42,7 +43,7 @@
 
     <div class="container" id="portifolio_hair">
       <div class="col-md-12">
-        <p>Portifólio-Hair</p>
+        <p class="centralize-responsive">Portifólio-Hair</p>
       </div>
     </div>
 
@@ -80,7 +81,7 @@
           <div class="grid-item grid-item--padrao">
             <p>11</p>
           </div>
-          
+
       </div>
     </div>
 

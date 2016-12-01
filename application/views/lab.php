@@ -1,12 +1,14 @@
   <body>
       <div class="container" id="lab-container">
         <div class="col-md-12 col-xs-12">
-          <img src="<?php echo base_url('/public/img/blink_lab_original.png'); ?>" id="lab-img1" alt="">
+          <img src="<?php echo base_url('/public/img/blink_lab_original.png'); ?>"
+          id="lab-img1" class="lab-img-layout" alt="">
         </div>
-        <div class="col-md-2">
-          <img src="<?php echo base_url('/public/img/lab/lab1.png'); ?>" id="lab-img2" alt="">
+        <div class="col-md-2 col-sm-3">
+          <img src="<?php echo base_url('/public/img/lab/lab2.jpg'); ?>"
+          id="lab-img2" class="lab-img-layout" alt="">
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 col-sm-9">
           <p style="color:#888;">Lab é a sala mais vip da blink.me. Acesse o menu no nosso site e desfrute dos serviços do nosso salão
           com todo o requinte e exclusividade que você merece. São 3 opções de serviço de buffet para até 15 convidados
         e você está liberadíssima para trazer a bebida que quiser.</p>
@@ -15,7 +17,7 @@
         </div>
       </div>
 
-      <div class="container" id="lab-form">
+      <div class="container centralize-responsive" id="lab-form">
         <div class="col-md-12">
           <h3>AGENDE AQUI</h3>
         </div>

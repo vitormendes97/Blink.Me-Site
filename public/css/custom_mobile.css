@@ -1,491 +1,455 @@
 @media only screen and (max-width: 767px) and (min-width: 230px) {
-
-.borderDash {
-    border: 2px dashed;
-    border-bottom: none;
-    margin: 10px;
-}
-.borderDash2 {
-    border: 2px dashed;
-    border-top: none;
-    margin: 10px;
-}
-.vouncher {
+    .borderDash {
+        border: 2px dashed;
+        border-bottom: none;
+        margin: 10px;
+    }
+    .borderDash2 {
+        border: 2px dashed;
+        border-top: none;
+        margin: 10px;
+    }
+    .vouncher {
         background-image: url(../img/firola2.png);
-    margin-top: -20px;
-    background-repeat-x: inherit;
-}
-.pos-top{
- height: inherit !important;
- padding: 0px
-}
-#top01{
-	height: 2.3vh;
-	background:#FCAF17;
- }
-
-#logo{
-	width: 50%;
-	position: absolute;
-}
-#formParte1 {
-    padding-left: 0px;
-}
-.navbar-header{
-	background-color: #F15922;
-	background-image: url('../img/logo2.jpg');
-	background-position: center;
-	background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.navbar{
-	border:none;
-	background: #F15922;
-}
-
-.navhref > a{
-	color: #fff;
-}
-
-.Reklame-font {
-	font-size: 35px;
-	text-align: center;
-}
-
-.input-class{
-/*    width: 41%;
-    margin-left: 20%;
-}*/
-	width: 82%;
-    margin-left: 9%;
-    /* margin-right: 13%; */
-}
-.select-area{
-	margin-right: 20%;
-}
-#btn-cadastrar{
-	margin-left: 30%;
-    margin-top: 5%;
-}
-
-.mobile-cad{
-	padding-top: 2vh;
-}
-#vouncher{
-	width: 100%;
-}
-
-#firola{
-    height: 455px;
-    position: relative;
-    top: -1px;
-    left: 0px;
-}
-
-#vouncher-p1{
-	color: #fff;
-	font-size: 33px;
-	position: relative;
-	right: 1vh;
-
-}
-#vouncher-p2{
-	color: #fff;
-	font-size: 15px;
-	font-family: MyRiad;
-	letter-spacing: 1px;
-	padding-right: 10px;
-	line-height: 22px;
-	right: 1vh;
-}
-
-
-.pull-down{
-	position: relative;
-	top: 60px;
-	margin: 0 auto;
-	left: 17px;
-}
-
-#vouncher-input{
-	top:80px;
-	width: 100%;
-	margin-right: 100px;
-}
-
-#firola2{
-	height: 468px;
-    left: -7px;
-    top:0;
-}
-
-#promocao{
-    margin-right: 2%;
-}
-
-#pos-carousel > .row > .col-md-12 > p{
-	font-size: 17px;
-}
-
-
-.circle-content-list {
-    font-size: 18px;
-    text-align: left;
-}
-
-#circle-content{
-	width: 110%;
-	margin-left: -16px;
-}
-
-#fname{
-	/*margin-left: 20%;*/
-}
-
-#blinkmeclub {
-	margin-left: 30%;
-    width: 40%;
-    margin-top: 7%;
-}
-
-#circle_thumb {
-    margin-left: 26%;
-    width: 50%;
-}
-
-#circle_desc{
-	margin-left: 4%;
-}
-
-#circle_desc_2 {
-    margin-left: 4%;
-}
-
-.ph > p {
-     margin-left: 7%;
-    font-size: 16px;
-    padding: 5%;
-
-}
-
-.borda {
-    border-left: none;
-}
-
-dt,dl{
-	font-size: 16px;
-}
-
-dt {
-	margin-right: 7%;
-}
-
-dl{
-    background: #F2A68B;
-    padding: 4%;
-    width: 62%;
-    margin: 0 auto;
-}
-
-#vantagens{
-	text-align: center;
-}
-
-#col-cosmetics{
-	margin-left: 0;
-}
+        margin-top: -20px;
+        background-repeat-x: inherit;
+    }
+    .pos-top {
+        height: inherit !important;
+        padding: 0px
+    }
+    #top01 {
+        height: 2.3vh;
+        background: #FCAF17;
+    }
+    #logo {
+        width: 50%;
+        position: absolute;
+    }
+    #formParte1 {
+        padding-left: 0px;
+    }
+    .navbar-header {
+        background-color: #F15922;
+        background-image: url('../img/logo2.jpg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .navbar {
+        border: none;
+        background: #F15922;
+    }
+    .navhref>a {
+        color: #fff;
+    }
+    .Reklame-font {
+        font-size: 35px;
+        text-align: center;
+    }
+    .input-class {
+        width: 82%;
+        margin-left: 9%;
+    }
+    .select-area {
+        margin-right: 20%;
+    }
+    #btn-cadastrar {
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    .mobile-cad {
+        padding-top: 2vh;
+    }
+    #vouncher {
+        width: 100%;
+    }
+    #firola {
+        height: 455px;
+        position: relative;
+        top: -1px;
+        left: 0px;
+    }
+    #vouncher-p1 {
+        color: #fff;
+        font-size: 33px;
+        position: relative;
+        right: 1vh;
+    }
+    #vouncher-p2 {
+        color: #fff;
+        font-size: 15px;
+        font-family: MyRiad;
+        letter-spacing: 1px;
+        padding-right: 10px;
+        line-height: 22px;
+        right: 1vh;
+    }
+    .pull-down {
+        position: relative;
+        top: 60px;
+        margin: 0 auto;
+        left: 17px;
+    }
+    #vouncher-input {
+        top: 80px;
+        width: 100%;
+        margin-right: 100px;
+    }
+    #firola2 {
+        height: 468px;
+        left: -7px;
+        top: 0;
+    }
+    #promocao {
+        margin-right: 2%;
+    }
+    #pos-carousel>.row>.col-md-12>p {
+        font-size: 17px;
+    }
+    .circle-content-list {
+        font-size: 18px;
+        text-align: left;
+    }
+    #circle-content {
+        width: 110%;
+        margin-left: -16px;
+    }
+    #fname {
+        /*margin-left: 20%;*/
+    }
+    #blinkmeclub {
+        margin-left: 30%;
+        width: 40%;
+        margin-top: 7%;
+    }
+    #circle_thumb {
+        margin-left: 26%;
+        width: 50%;
+    }
+    #circle_desc {
+        margin-left: 4%;
+    }
+    #circle_desc_2 {
+        margin-left: 4%;
+    }
+    .ph>p {
+        margin-left: 7%;
+        font-size: 16px;
+        padding: 5%;
+    }
+    .borda {
+        border-left: none;
+    }
+    dt, dl {
+        font-size: 16px;
+    }
+    dt {
+        margin-right: 7%;
+    }
+    dl {
+        background: #F2A68B;
+        padding: 4%;
+        width: 62%;
+        margin: 0 auto;
+    }
+    #vantagens {
+        text-align: center;
+    }
+    #col-cosmetics {
+        margin-left: 0;
+    }
+    #col-atelier {
+        margin-left: 0;
+    }
+    #col-lab {
+        margin-left: 0;
+    }
+    #col-studio {
+        margin-left: 0;
+    }
+    #circle-cosmetics {
+        margin-left: 0%;
+        margin: 0 auto;
+    }
+    #circle-atelier {
+        margin-left: 0%;
+        margin: 0 auto;
+    }
+    #circle-lab {
+        margin-left: 0%;
+        margin: 0 auto;
+    }
+    #circle-studio {
+        margin-left: 0%;
+        margin: 0 auto;
+    }
+    #endereco {
+        line-height: 1;
+        text-align: center;
+    }
+    #piso {
+        text-align: center;
+    }
+    #breve {
+        text-align: center;
+    }
+    #ios-store {
+        width: 73%;
+        margin-top: 1.8%;
+        margin-left: -3%;
+    }
+    #myModal {
+        width: 64%;
+        font-size: 17px;
+    }
+    #logo-footer {
+        width: 100%;
+    }
+    #entrar-btn {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    #promocao_area input[type=email] {
+        margin: 0 auto;
+    }
+    #promocao_area input[type=text] {
+        margin: 0 auto;
+    }
+    footer, .mobile_title_center, #contato_enviar {
+        text-align: center;
+    }
+    #club {
+        text-align: justify;
+    }
+    #club .col-md-5 {
+        padding: 40px 0px 0px 0px !important;
+    }
+    #club .col-md-12:last-child {
+        text-align: center;
+    }
+    #manifesto_p {
+        font-size: 52px;
+    }
+    #check_area {
+        width: 298px;
+    }
+    #check_left {
+        padding-right: 18px;
+    }
+    #lab-container {
+        padding: 58px 0px 40px 0px;
+    }
+    #lab-img1, #lab-img2 {
+        margin: 0 auto;
+        display: block;
+    }
+    #lab-img1 {
+      padding-bottom: 6%;
+    }
+
+    #lab-container div:nth-child(3) p:first-child {
+        text-align: justify;
+    }
+    .lab-form {
+        width: 100% !important;
+    }
+    #lab-form>.col-md-12>h3 {
+        text-align: center;
+    }
+    #enviar-lab {
+        text-align: center;
+    }
+    .textarea {
+        margin: 0 auto;
+    }
+    #mapa {
+        padding-bottom: 20px;
+    }
+    #club_description>p {
+        text-align: justify;
+    }
+
+    #cadastro_area_club {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .centralize-responsive {
+        text-align: center;
+    }
+
+    .img-center {
+      margin: 0 auto;
+      display: block;
+    }
+
+    .mobile-auto-width-logo {
+      width: 250px !important;
+    }
+
+    #img_circle_atelier {
+      width: 61%;
+    }
 
-#col-atelier{
-	margin-left: 0;
-}
-
-#col-lab{
-	margin-left: 0;
-}
-
-#col-studio{
-	margin-left: 0;
-}
-
-	#circle-cosmetics{
-	margin-left: 0%;
-	margin: 0 auto;
-}
-
-#circle-atelier{
-	margin-left: 0%;
-	margin: 0 auto;
-}
-
-#circle-lab{
-	margin-left: 0%;
-	margin: 0 auto;
-}
-#circle-studio{
-	margin-left: 0%;
-	margin: 0 auto;
-}
-
-#endereco {
-     line-height: 1;
-     text-align: center;
-}
-#piso{
-	text-align: center;
-}
-
-#breve{
-	text-align: center;
-}
-#ios-store {
-    width: 73%;
-    margin-top: 1.8%;
-    margin-left: -3%;
-}
-
-#myModal{
-	width: 64%;
-	font-size: 17px;
-}
-
-#logo-footer {
-    width: 100%;
-}
-#entrar-btn {
-    padding-left: 7%;
-    padding-right: 7%;
-}
-
-#promocao_area input[type=email] {
-    margin: 0 auto;
-}
-
-#promocao_area input[type=text] {
-    margin: 0 auto;
-}
-
-footer, .mobile_title_center , #contato_enviar {
-  text-align: center;
-}
-
-#club {
-  text-align: justify;
-}
-
-#club .col-md-5 {
-  padding: 40px 0px 0px 0px !important;
-}
 
-#club .col-md-12:last-child {
-  text-align: center;
 }
-
-#manifesto_p {
-    font-size: 52px;
-}
-
-#check_area {
-    width: 298px;
-}
-
-#check_left {
-    padding-right: 18px;
-}
-
-
-#lab-container {
-    padding: 58px 0px 40px 0px;
-}
-
-#lab-img2 {
-    margin: 0 auto;
-    display: block;
-}
-
-#lab-img1 {
-    margin: 0 auto;
-    display: block;
-}
-
-#lab-container div:nth-child(3) p:first-child {
-    text-align: justify;
-}
-
-.lab-form {
-    width: 100% !important;
-}
-
-#lab-form > .col-md-12 > h3 {
-  text-align: center;
-}
-
-#enviar-lab {
-  text-align: center;
-}
-.textarea {
-  margin: 0 auto;
-}
-
-#mapa {
-  padding-bottom: 20px;
-}
-
-#club_description > p {
-  text-align: justify;
-}
-
-}
-#cadastro_area_club {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-
-
-
 
 /*TABLETS*/
+@media only screen and (max-width: 990px) and (min-width: 767px) {
+    .navbar-header {
+        background-color: #F15922;
+        background-image: url('../img/logo2.jpg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 39%;
+    }
 
+    .col-sm-fluid {
+        background-color: #F15922;
+    }
 
+    .menu-desktop {
+        right: 12%;
+    }
 
+    #circle-cosmetics {
+        margin-left: 0%;
+        margin: 0 auto;
+    }
 
-@media only screen and (max-width: 990px) and (min-width: 767px){
+    #circle-atelier {
+        margin-left: 0%;
+        margin: 0 auto;
+    }
 
-	.navbar-header{
-		background-color: #F15922;
-		background-image: url('../img/logo2.jpg');
-		background-position: center;
-		background-size: contain;
-	    background-repeat: no-repeat;
-	    width: 39%;
-}
-	.col-sm-fluid{
-		background-color: #F15922;
-	}
+    #circle-lab {
+        margin-left: 0%;
+        margin: 0 auto;
+    }
 
-	#circle-cosmetics{
-	margin-left: 0%;
-	margin: 0 auto;
-}
+    #circle-studio {
+        margin-left: 0%;
+        margin: 0 auto;
+    }
 
-#circle-atelier{
-    margin-left: 0%;
-    margin: 0 auto;
-}
+    .circle-img {
+        width: 45%;
+    }
 
-#circle-lab{
-    margin-left: 0%;
-    margin: 0 auto;
-}
+    .tinta {
+        background-size: 70%;
+    }
 
-#circle-studio{
-    margin-left: 0%;
-    margin: 0 auto;
-}
-.circle-img {
-    width: 45%;
-}
-.tinta {
-background-size: 70%;
-}
-#col-cosmetics{
-	margin-left: 0;
-}
+    #col-cosmetics {
+        margin-left: 0;
+    }
 
-#col-atelier{
-	margin-left: 0;
-}
+    #col-atelier {
+        margin-left: 0;
+    }
 
-#col-lab{
-	margin-left: 0;
-}
+    #col-lab {
+        margin-left: 0;
+    }
 
-#col-studio{
-	margin-left: 0;
-}
+    #col-studio {
+        margin-left: 0;
+    }
 
-#circle_thumb {
-    margin-left: 30%;
-    width: 30%;
-    margin-top: 10%;
-}
+    #circle_thumb {
+        margin-left: 30%;
+        width: 30%;
+        margin-top: 10%;
+    }
 
-#btn-cadastrar{
-	margin-left: 42%;
-}
+    #btn-cadastrar {
+        margin-left: 42%;
+    }
 
-#myModal{
-	width: 100%;
-	font-size: 17px;
-}
+    #myModal {
+        width: 100%;
+        font-size: 17px;
+    }
 
+    #promocao_area input[type=email] {
+        width: 212px;
+    }
 
-#promocao_area input[type=email] {
-    width: 212px;
-}
-#promocao_area input[type=text] {
-    width: 212px;
-}
+    #promocao_area input[type=text] {
+        width: 212px;
+    }
 
-.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    display: block;
-     max-width: 100%;
-    height: auto;
-}
+    .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
 
-.menu-desktop {
-    top: 15%;
-    width: 256px;
-    left: 66%;
-}
+    .menu-desktop {
+        top: 15%;
+        width: 256px;
+        left: 66%;
+    }
 
-#entrar-btn {
-    padding: 2% 4% 2% 4%;
-    font-size: 19px;
-}
+    #entrar-btn {
+        padding: 2% 4% 2% 4%;
+        font-size: 19px;
+    }
 
-#logo-footer {
-    width: 100%;
-}
+    #logo-footer {
+        width: 100%;
+    }
 
-.login-circle p:first-child {
-    line-height: 27px;
-}
+    .login-circle p:first-child {
+        line-height: 27px;
+    }
 
-#lab-img2 {
-    margin: 0 auto;
-    display: block;
-    width: 208px;
-}
+    .lab-img-layout {
+        margin: 0 auto;
+        display: block;
+    }
 
-#lab-img1 {
-    margin: 0 auto;
-    display: block;
-    width: 225px;
-}
+    #lab-form div:nth-child(1) h3, #requisito1, #lab-check>p, .form-inline>div, #lab-container div:nth-child(3), #text-area-lab, .mobile_title_center, #contato_enviar {
+        text-align: center;
+    }
 
+    #text-area-lab {
+        padding-top: 16%;
+    }
 
-#lab-form div:nth-child(1) h3 , #requisito1 , #lab-check > p , .form-inline > div , #lab-container div:nth-child(3),
- #text-area-lab , .mobile_title_center , #contato_enviar{
-  text-align: center;
-}
+    #check_area {
+        margin-left: 28%;
+    }
 
- #text-area-lab {
-   padding-top: 16%;
- }
+    .textarea {
+        margin: 0 auto;
+        display: block;
+    }
 
-#check_area {
-  margin-left: 28%;
-}
+    #mapa {
+        padding-bottom: 35px;
+    }
 
-.textarea {
-  margin: 0 auto;
-  display: block;
-}
+    .lab-img-layout {
+        width: 171px;
+    }
 
-#mapa {
-  padding-bottom: 35px;
-}
+    .img-center {
+      margin: 0 auto;
+      display: block;
+    }
+
+    .centralize-responsive {
+      text-align: center;
+    }
+
+  .descontos {
+    margin-left: 4%;
+  }
+  #img_circle_atelier {
+    width: 36%;
+  }
 
 }

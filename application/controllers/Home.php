@@ -58,4 +58,9 @@ class Home extends CI_Controller {
 		$this->load->view('footer');
 	}
 
+	public function loja(){
+		$this->load->view('head');
+		$this->load->view('coming_soon');
+	}
+
 }

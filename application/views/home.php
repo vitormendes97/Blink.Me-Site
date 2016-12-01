@@ -98,13 +98,14 @@
 
     <section>
 
-        <div class="container" id="club" style="background:#F4F4F4;    padding: 20px 20px;">
+        <div class="container centralize-responsive" id="club" style="background:#F4F4F4;    padding: 20px 20px;">
             <div class="col-md-12">
-                <img src="public/img/blinkmeclub.jpg" style="    width: 300px;">
+                <img src="public/img/blinkmeclub.jpg" class="img-center mobile-auto-width-logo" style="width: 300px;">
                 <br><br>
             </div>
             <div class="col-md-3">
-                <img src="public/img/circle-thumb.jpg" style="    max-width: 300px;  width: 90%;margin: 0 auto;display: block;">
+                <img src="public/img/circle-thumb.jpg" class="img-center"
+                 style="max-width: 300px;  width: 90%;margin: 0 auto;display: block;">
             </div>
 
             <div class="col-md-5" style="    color: #888;font-size: 20px;padding: 20px 40px 0px 0px;">

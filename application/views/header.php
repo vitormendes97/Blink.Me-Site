@@ -15,15 +15,25 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav ">
 
-                    <li><a class="ancora" href="#cadastrese" style="color:#fff; font-family: MyRiad; font-size: 19px;">CADASTRE-SE<span class="sr-only">(current)</span></a></li>
+                    <li><a class="ancora" href="home" style="color:#fff; font-family: MyRiad; font-size: 19px;">BLINK.ME<span class="sr-only">(current)</span></a></li>
 
-                    <li><a class="ancora" href="#club" style="color:#fff; font-family: MyRiad;font-size: 19px;">BLINK ME CLUB</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                      aria-haspopup="true" aria-expanded="false" style="color:#fff; font-family: MyRiad;font-size: 19px;cursos:pointer;">ATELIER <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="atelier">HAIR</a></li>
+                          <li><a href="atelier">NAIL</a></li>
+                          <li><a href="atelier">MAKEUP</a></li>
+                      </ul>
+                    </li>
 
-                    <li><a class="ancora" href="#manifesto" style="color:#fff; font-family: MyRiad;font-size: 19px;">MANIFESTO</a></li>
+                    <li><a class="ancora" href="#" style="color:#fff; font-family: MyRiad;font-size: 19px;">COSMETICS</a></li>
 
-                    <li><a class="ancora" href="#fotos" style="color:#fff; font-family: MyRiad;font-size: 19px;">FOTOS</a></li>
+                    <li><a class="ancora" href="lab" style="color:#fff; font-family: MyRiad;font-size: 19px;">LAB</a></li>
 
-                    <li><a class="ancora" href="#contato" style="color:#fff; font-family: MyRiad;font-size: 19px;">CONTATO</a></li>
+                    <li><a class="ancora" href="club" style="color:#fff; font-family: MyRiad;font-size: 19px;">CLUB</a></li>
+
+                    <li><a class="ancora" href="contato" style="color:#fff; font-family: MyRiad;font-size: 19px;">CONTATO</a></li>
                 </ul>
             </div>
         </div>
@@ -66,20 +76,20 @@
 
     <!--MENUS Desktop-->
     <div class="col-md-3 col-md-offset-9 open" id="submenu_geral">
-        <div class="menu-desktop">
+        <div class="menu-desktop riad-bold">
             <ul>
-                <li><a href="#">BLINK.ME</a></li>
-                <li><a href="#">ATELIER</a>
+                <li><a href="home">BLINK.ME</a></li>
+                <li><a style="cursor:pointer">ATELIER</a>
                     <ul class="sub-menu">
-                        <li><a href="#">HAIR</a></li>
-                        <li><a href="#">NAIL</a></li>
-                        <li><a href="#">MAKEUP</a></li>
+                        <li><a href="atelier">HAIR</a></li>
+                        <li><a href="atelier">NAIL</a></li>
+                        <li><a href="atelier">MAKEUP</a></li>
                     </ul>
                 </li>
                 <li><a href="#">COSMETICS</a></li>
                 <li><a href="lab">LAB</a></li>
-                <li><a href="#">CLUB</a></li>
-                <li><a href="#">CONTATO</a></li>
+                <li><a href="club">CLUB</a></li>
+                <li><a href="contato">CONTATO</a></li>
             </ul>
         </div>
     </div>

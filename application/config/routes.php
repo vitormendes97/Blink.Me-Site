@@ -56,3 +56,5 @@ $route['lab'] = 'Home/lab';
 $route['contato'] = 'Home/contato';
 $route['club'] = 'Home/club';
 $route['atelier'] = 'Home/atelier';
+$route['loja'] = 'Home/loja';
+$route['club/cadastro'] = 'Home/loja';

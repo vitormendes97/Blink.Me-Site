@@ -11,6 +11,11 @@
     src: url('../fonts/ReklameScript-RegularDEMO.otf');
 }
 
+@font-face {
+  font-family: MyRiad-Bold;
+  src: url('../fonts/MyriadPro-Semibold.ttf');
+}
+
 html,body
 {
     width: 100%;
@@ -25,6 +30,10 @@ body{
 	font-family: MyRiad;
 	font-size: 19px;
 	color: #fff;
+}
+
+.riad-bold {
+  font-family: MyRiad-Bold;
 }
 
 .navbar{
@@ -450,7 +459,7 @@ body{
 .login-circle{
   border: 3px solid #fff;
   border-radius: 32px;
-  padding: 0% 2% 0% 2% !important;
+  /*padding: 0% 2% 0% 2% !important*/
   height: 56px;
 }
 
@@ -472,6 +481,7 @@ body{
 .menu-desktop {
   background-color: #f05a22;
   position: absolute;
+  right: 44%;
   top: 17%;
   width: 300px;
 }
@@ -479,6 +489,10 @@ body{
 .menu-desktop ul {
   list-style-type: none;
   padding-top: 10px;
+}
+
+.menu-desktop > ul > li {
+  padding: 13px 0px 13px 0px;
 }
 
   .sub-menu {
@@ -557,12 +571,12 @@ body{
   padding: 150px 0px 40px 0px;
 }
 
-#lab-img1 {
-  width: 150px;
+.lab-img-layout {
+  width: 171px;
 }
 
 #lab-img2 {
-  width: 150px;
+  border-radius: 100px;
 }
 
 #lab-container div:nth-child(3) p:first-child {
@@ -751,7 +765,7 @@ margin-left: -27px;
 }
 
 #atelier_container {
-  padding: 10% 0% 4% 5%;
+  padding: 10% 0% 4% 0%;
 }
 
 #img_circle_atelier {
@@ -781,9 +795,24 @@ margin-left: -27px;
   width: 20%;
 }
 
-
 .grid-item--padrao { width: 20%;}
-/*.grid-item--padrao2 { width: 30%; } /*Usar quando a coluna tiver height maior*/
-
 
 .grid-item--height2 { height: 380px; }
+
+
+.soon {
+  background-image: url('../img/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#top03-lista > ul > li {
+  padding: 0px 40px 0px 40px;
+}
+
+/*.dropdown:hover {
+  background-color: #fff;
+  color: orange;
+}*/
