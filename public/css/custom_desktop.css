@@ -764,17 +764,26 @@ margin-left: -27px;
   color: #000;
 }
 
+.grid {
+ width: 100%;
+ max-width: 100%;
+}
 
 
+.grid-item {
+  width: 20%;
+  height: 190px;
+  float: left;
+  background: #000;
+}
+
+.grid-sizer {
+  width: 20%;
+}
 
 
+.grid-item--padrao { width: 20%;}
+/*.grid-item--padrao2 { width: 30%; } /*Usar quando a coluna tiver height maior*/
 
 
-
-
-
-
-
-/*MANSORY*/
-.grid-item { width: 200px; }
-.grid-item--width2 { width: 400px; }
+.grid-item--height2 { height: 380px; }

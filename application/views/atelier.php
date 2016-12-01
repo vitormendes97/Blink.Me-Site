@@ -46,20 +46,41 @@
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="" style="padding:0;">
       <!-- add extra container element for Masonry -->
       <div class="grid">
-        <!-- add sizing element for columnWidth -->
-        <div class="grid-sizer col-xs-4" style="background:orange;"></div>
-        <!-- items use Bootstrap .col- classes -->
-        <div class="grid-item col-xs-8">
-          <!-- wrap item content in its own element -->
-          <div class="grid-item-content">...</div>
+
+        <div class="grid-sizer"></div>
+        <div class="grid-item grid-item--padrao" style="background:#F18962;">
+          1
         </div>
-        <div class="grid-item col-xs-4">
-          <div class="grid-item-content">...</div>
+        <div class="grid-item grid-item--height2 grid-item--padrao2" style="background:RED;">
+          <p class="text-center">2</p>
         </div>
-        ...
+        <div class="grid-item grid-item--padrao" style="background:#F2A88B;">
+          3
+        </div>
+        <div class="grid-item grid-item--padrao" style="background:green;">4</div>
+        <div class="grid-item grid-item--height2 grid-item--padrao2">
+        <p>5</p>
+        </div>
+          <div class="grid-item  grid-item--padrao2 grid-item--height2 ">
+            <p class="text-center">6</p>
+          </div>
+          <div class="grid-item  grid-item--padrao">
+            <p class="text-center">7</p>
+          </div>
+          <div class="grid-item  grid-item--padrao2 grid-item--height2" style="background:#EF5A20;">
+            <p class="text-center">8</p>
+          </div>
+          <div class="grid-item grid-item--padrao" style="background:#EF5A20;">9</div>
+          <div class="grid-item grid-item--padrao">
+            <p>10</p>
+          </div>
+          <div class="grid-item grid-item--padrao">
+            <p>11</p>
+          </div>
+          
       </div>
     </div>
 
