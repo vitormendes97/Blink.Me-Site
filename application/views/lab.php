@@ -63,7 +63,7 @@
         <p>SERVIÇOS SOLICITADOS</p>
         <div class="col-md-12" id="check_area">
           <!--Parte esquerda do check-->
-          <div id="check_left">
+          <!-- <div id="check_left">
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="escova">
@@ -82,10 +82,10 @@
               Make Up
             </label>
          </div>
-      </div>
+      </div> -->
       <!--FIM PARTE ESQUERDA-->
 
-      <div id="check_right">
+      <!-- <div id="check_right">
        <div class="checkbox">
          <label>
            <input type="checkbox" value="mao/pe">
@@ -104,13 +104,26 @@
          Outros
        </label>
     </div>
-  </div>
+  </div> -->
+        <div class="col-md-6 col-xs-12 col-sm-6 check_responsive">
+
+          <input type="checkbox">  <label for="check1">Escova</label><br>
+          <input type="checkbox">  <label for="check1">Penteado</label><br>
+          <input type="checkbox">  <label for="check1">Make up</label>
+        </div>
+
+        <div class="col-md-6 col-xs-12 col-sm-6 check_responsive">
+
+          <input type="checkbox">  <label for="check1">Mão/Pé</label><br>
+          <input type="checkbox">  <label for="check1">Design de Sobrancelha</label><br>
+          <input type="checkbox">  <label for="check1">Outros</label>
+        </div>
   </div>
 </div>
 
       <div class="col-md-12"  id="text-area-lab">
           <div class="col-md-12">
-            <label for="">Comentários</label>
+          <strong>Comentários</strong>
           </div>
           <div class="col-md-12">
             <textarea class="hidden-xs textarea" name="coments" rows="5" cols="80"></textarea>

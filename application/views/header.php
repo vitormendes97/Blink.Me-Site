@@ -15,19 +15,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav ">
 
-                    <li><a class="ancora" href="home" style="color:#fff; font-family: MyRiad; font-size: 19px;">BLINK.ME<span class="sr-only">(current)</span></a></li>
+                    <li><a class="ancora" href="home" style="color:#fff; font-family: MyRiad;font-size: 19px;">HOME<span class="sr-only">(current)</span></a></li>
 
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                      aria-haspopup="true" aria-expanded="false" style="color:#fff; font-family: MyRiad;font-size: 19px;cursos:pointer;">ATELIER <span class="caret"></span></a>
+                      aria-haspopup="true" aria-expanded="false" style="color:#fff; font-family:MyRiad;font-size: 19px;cursos:pointer;">ATELIER <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                          <li><a href="atelier">HAIR</a></li>
-                          <li><a href="atelier">NAIL</a></li>
-                          <li><a href="atelier">MAKEUP</a></li>
+                          <li><a href="hair">HAIR</a></li>
+                          <li><a href="nails">NAIL</a></li>
+                          <li><a href="makeup">MAKEUP</a></li>
                       </ul>
                     </li>
 
-                    <li><a class="ancora" href="#" style="color:#fff; font-family: MyRiad;font-size: 19px;">COSMETICS</a></li>
+                    <li><a class="ancora" href="cosmetics" style="color:#fff; font-family: MyRiad;font-size: 19px;">COSMETICS</a></li>
 
                     <li><a class="ancora" href="lab" style="color:#fff; font-family: MyRiad;font-size: 19px;">LAB</a></li>
 
@@ -47,7 +47,9 @@
         <div class="row visible-lg visible-md visible-sm" id="top02">
             <div class="container">
                 <div class="col-md-3 col-sm-5">
-                    <img class="img-responsive" src="public/img/logo2.jpg">
+                  <a href="home">
+                      <img class="img-responsive" src="<?php echo base_url('public/img/logo2.jpg')?>">
+                  </a>
                 </div>
                 <div class="col-md-9 col-sm-7" id="top03-lista" style="text-align: right;">
                     <ul class="list-inline">
@@ -57,12 +59,12 @@
                  <li><a class="ancora"  href="#fotos">FOTOS</a></li>
                  <li><a class="ancora"  href="#contato">CONTATO
                  </a></li> -->
-                        <li class="login-circle">
+                        <!-- <li class="login-circle">
                             <p>Olá Visitante</p>
                             <p>
                                 <a href="#">Clique aqui para entrar</a>
                             </p>
-                        </li>
+                        </li> -->
                         <li>
                             <a>
                                 <i id="menu" class="fa fa-bars fa-2x" aria-hidden="true"></i>
@@ -78,15 +80,15 @@
     <div class="col-md-3 col-md-offset-9 open" id="submenu_geral">
         <div class="menu-desktop riad-bold">
             <ul>
-                <li><a href="home">BLINK.ME</a></li>
+                <li><a href="home">HOME</a></li>
                 <li><a style="cursor:pointer">ATELIER</a>
                     <ul class="sub-menu">
-                        <li><a href="atelier">HAIR</a></li>
-                        <li><a href="atelier">NAIL</a></li>
-                        <li><a href="atelier">MAKEUP</a></li>
+                        <li><a href="hair">HAIR</a></li>
+                        <li><a href="nails">NAIL</a></li>
+                        <li><a href="makeup">MAKEUP</a></li>
                     </ul>
                 </li>
-                <li><a href="#">COSMETICS</a></li>
+                <li><a href="cosmetics">COSMETICS</a></li>
                 <li><a href="lab">LAB</a></li>
                 <li><a href="club">CLUB</a></li>
                 <li><a href="contato">CONTATO</a></li>

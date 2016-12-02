@@ -4,17 +4,17 @@
 
         <img src="<?php echo base_url('/public/img/blink_atelier.png') ?>" class="img-center" alt="" id="blink_atelier_logo">
 
-        <dl class="dl-horizontal lista-vertical" style="background: #F2A68B; padding:4%;margin-bottom: 0; width:100%;">
+        <dl class="dl-horizontal lista-vertical" style="color:#000;background:#F2A68B; padding:4%;margin-bottom: 0; width:100%;">
 
-            <dd><span style="color:#fff;">&gt;</span> DESCONTO EM TODA LOJA</dd>
+            <dd><span style="color:#fff;">&gt;</span> <a href="hair" class="no_link">HAIR</a></dd>
           </dl>
 
-          <dl class="dl-horizontal lista-vertical" style="background: #F28761; padding:4%;margin-bottom:0;width:100%;">
-            <dd><span style="color:#fff;">&gt;</span> PROMOÇÕES EXCLUSIVAS</dd>
+          <dl class="dl-horizontal lista-vertical" style="color:#000;background:#F28761; padding:4%;margin-bottom:0;width:100%;">
+            <dd><span style="color:#fff;">&gt;</span><a href="makeup" class="no_link">MAKE UP</a></dd>
           </dl>
 
-          <dl class="dl-horizontal lista-vertical" style="background: #F2A68B; padding:4%;width:100%;">
-            <dd><span style="color:#fff;">&gt;</span> SERVIÇOS DE CASHBACK</dd>
+          <dl class="dl-horizontal lista-vertical" style="color:#000;background:#F2A68B; padding:4%;width:100%;">
+            <dd><span style="color:#fff;">&gt;</span> <a href="nails" class="no_link">NAIL</a></dd>
           </dl>
       </div>
 
@@ -43,7 +43,7 @@
 
     <div class="container" id="portifolio_hair">
       <div class="col-md-12">
-        <p class="centralize-responsive">Portifólio-Hair</p>
+              <p class="centralize-responsive">Portifólio <span style="font-family:cursive">/</span>Hair</p>
       </div>
     </div>
 
@@ -93,7 +93,8 @@
               <p class="text-center">Cadastre seu email e receba promoções exclusivas</p>
             </div>
             <div class="col-md-12 col-xs-12 text-center">
-              <form class="form-inline">
+              <form  action="//blinkme.us14.list-manage.com/subscribe/post?u=17a65ceea9f3b184b2e72f366&amp;id=1d3ebef362"
+              class="form-inline"   method="POST" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
               <div class="form-group">
                 <input type="text" class="form-control"  placeholder="Nome">
               </div>

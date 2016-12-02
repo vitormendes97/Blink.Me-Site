@@ -63,4 +63,36 @@ class Home extends CI_Controller {
 		$this->load->view('coming_soon');
 	}
 
+	public function cosmetics()
+	{
+		$this->load->view('head');
+		$this->load->view('header');
+		$this->load->view('cosmetics');
+		$this->load->view('footer');
+	}
+
+	public function nails()
+	{
+		$this->load->view('head');
+		$this->load->view('header');
+		$this->load->view('nails');
+		$this->load->view('footer');
+	}
+
+	public function makeup()
+	{
+		$this->load->view('head');
+		$this->load->view('header');
+		$this->load->view('makeup');
+		$this->load->view('footer');
+	}
+
+	public function hair()
+	{
+		$this->load->view('head');
+		$this->load->view('header');
+		$this->load->view('hair');
+		$this->load->view('footer');
+	}
+
 }

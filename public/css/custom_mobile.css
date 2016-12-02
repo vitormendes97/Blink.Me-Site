@@ -292,6 +292,29 @@
       width: 61%;
     }
 
+    .dropdown-menu li a {
+      color: #fff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: #fff;
+    }
+
+    .check_responsive {
+      text-align: left;
+      padding-left: 50px;
+      z-index: 9999;
+    }
+
+    .cosmeticbg {
+      background-size: cover;
+  }
+
+  .bg_control {
+      font-size: 22px;
+      line-height: 38px;
+      padding: 19% 24% 8% 24%;
+}
+
 
 }
 
@@ -403,7 +426,7 @@
     }
 
     .login-circle p:first-child {
-        line-height: 27px;
+        line-height: 20px;
     }
 
     .lab-img-layout {
@@ -451,5 +474,22 @@
   #img_circle_atelier {
     width: 36%;
   }
+
+  .check_responsive {
+    text-align: left;
+    padding-left: 10px;
+    z-index: 9999;
+  }
+
+  .cosmeticbg {
+    background-size: cover;
+}
+
+.bg_control {
+  padding: 15% 24% 13% 24%;
+  line-height: 46px;
+  font-size: 24px;
+}
+
 
 }

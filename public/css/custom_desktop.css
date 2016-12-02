@@ -153,6 +153,7 @@ body{
 .Reklame-font {
 	font-size: 40px;
 	text-align: center;
+  font-family: Reklame-Script;
 }
 
 .input-class{
@@ -464,8 +465,9 @@ body{
 }
 
 .login-circle p:first-child {
-  line-height: 31px;
+  line-height: 18px;
   text-align: center;
+  padding-top: 9%;
   margin-bottom: 0;
 }
 
@@ -645,6 +647,9 @@ margin-left: -27px;
   width: 16px;
 }
 
+#lab-check label {
+  padding: 5px;
+}
 
 #lab-check > p {
   font-weight: 700;
@@ -744,7 +749,7 @@ margin-left: -27px;
 }
 
 #club_cadastro {
-  color: #000;
+  color: #fff;
   font-size: 19px;
   font-weight: bold;
   padding: 5px 45px 5px 45px;
@@ -812,7 +817,82 @@ margin-left: -27px;
   padding: 0px 40px 0px 40px;
 }
 
-/*.dropdown:hover {
-  background-color: #fff;
-  color: orange;
-}*/
+.hr_custom {
+  border: 2px solid #f05a22;
+}
+
+#hr_cosmetics {
+  margin-top: -14px;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.reklame-config {
+  font-size: 39px;
+  font-family: Reklame-Script;
+}
+
+.padding-container {
+  padding: 5% 0% 5% 0%
+}
+
+.main-menu {
+  color: #000;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main-menu li {
+  padding: 10px 0px 0px 0px
+}
+
+.main-menu li i {
+  color: #f05a22;
+}
+.sub-menu-cosmetics {
+
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.no_link, .no_link:hover {
+  color: #000;
+}
+
+.mansory-img {
+  width: 100%;
+  height: auto;
+}
+
+.btn-default:hover {
+  background-color: #ee3022;
+  color: #fff;
+}
+
+.cosmeticbg {
+  background-image: url('../img/cosmetics/bg_cosmetics.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.bg_control {
+      padding: 12% 24% 16% 24%;
+  line-height: 21px;
+}
+
+.bg_text_cosmetic > span{
+    font-size: 60px;
+}
+
+.bar_cosmetics {
+      width: 180%;
+      margin-top: -167%;
+  }

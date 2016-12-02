@@ -58,3 +58,7 @@ $route['club'] = 'Home/club';
 $route['atelier'] = 'Home/atelier';
 $route['loja'] = 'Home/loja';
 $route['club/cadastro'] = 'Home/loja';
+$route['cosmetics'] = 'Home/cosmetics';
+$route['nails'] = 'Home/nails';
+$route['makeup'] = 'Home/makeup';
+$route['hair'] = 'Home/atelier';
