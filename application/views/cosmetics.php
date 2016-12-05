@@ -87,17 +87,17 @@
     </div>
     <div class="container-fluid cosmeticbg" >
       <div class="col-md-12 text-center" >
-          <div class="bg_control">
+          <div class="bg_control container">
             <div class="col-md-2 bg_text_cosmetic" >
-              <span>2000</span>
-              <p>Produtos</p>
+              <span>+2000</span>
+              <p style="margin-left:5px;">Produtos</p>
             </div>
 
             <div class="hidden-xs hidden-sm col-md-1 bg_text_cosmetic">
                 <img src="<?php echo base_url('/public/img/cosmetics/barra.png') ?>" class="bar_cosmetics" alt="">
             </div>
 
-            <div class="col-md-2 bg_text_cosmetic">
+            <div class="col-md-1 bg_text_cosmetic">
               <span>111</span>
               <p>Marcas</p>
             </div>
@@ -107,7 +107,7 @@
               <img src="<?php echo base_url('/public/img/cosmetics/barra.png') ?>" class="bar_cosmetics" alt="">
             </div>
 
-            <div class="col-md-3 bg_text_cosmetic">
+            <div class="col-md-2 bg_text_cosmetic">
               <span>45</span>
               <p>Itens para cabelo</p>
             </div>
@@ -116,7 +116,7 @@
               <img src="<?php echo base_url('/public/img/cosmetics/barra.png') ?>" class="bar_cosmetics" alt="">
             </div>
 
-            <div class="col-md-2 bg_text_cosmetic">
+            <div class="col-md-1 bg_text_cosmetic">
               <span>15</span>
               <p>Perfumes</p>
             </div>

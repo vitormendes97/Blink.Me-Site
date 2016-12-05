@@ -6,12 +6,10 @@ $(document).ready(function(){
     columnWidth: '.grid-item'
   });
 
-$("body").on('click',function(){
-  if(!$("#submenu_geral").hasClass("open")) {
-    // $("#submenu_geral").removeClass("open");
-    console.log("menu ta aberto");
-  }
-});
+  $('.sair').click(function(){
+    $('#submenu_geral').addClass('open');
+  $('.sair').hide();
+  });
 
 
 });
@@ -20,6 +18,7 @@ $("body").on('click',function(){
 function toggleClass(elementClick, elementToggled,className){
   $(elementClick).on('click',function(){
     $(elementToggled).toggleClass(className);
+    $(".sair").show();
   });
 }
 

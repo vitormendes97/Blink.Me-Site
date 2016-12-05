@@ -11,48 +11,48 @@
                 <img src="public/img/Cosmetics.jpg" class="img-responsive circle-img">
                 <br>
                 <p class="circle-content-p"><a href="cosmetics" class="no_link">COSMETICS</a></p>
-                <div class="bgTintaHover" id="hoverCosmetics">
+                <a href="cosmetics" class="bgTintaHover no_link" id="hoverCosmetics">
                     <img src="public/img/blink_cosmetics.png" /><br>
-                    <a href="cosmetics" class="no_link">
+
                       Você encontrará aqui os produtos utilizados pelos profissionais para cabelos, as melhores maquiagens e perfumes, além de produtos para corpo e rosto. Difícil vai ser escolher entre as
                       mais de 60 marcas disponíveis. Mas o nosso time estará à disposição para tirar dúvidas, orientar e ajudar no momento de compra.
-                    </a>
-                  </div>
+
+                  </a>
             </div>
 
             <div class="tinta col-md-3 col-sm-6 col-xs-12">
                 <img src="public/img/Atelier.jpg" class="img-responsive circle-img">
                 <br>
                 <p class="circle-content-p"><a href="hair" class="no_link">ATELIER BEAUTY</a></p>
-                <div class="bgTintaHover" id="hoverAtelier">
+                <a href="hair" class="bgTintaHover no_link" id="hoverAtelier">
                     <img src="public/img/blink_atelier.png" /><br>
-                    <a href="hair" class="no_link">Está com vontade de mudar o visual, fazer um novo corte nos cabelos, mudar o penteado ou simplesmente trocar de esmalte? Esse é o espaço para um momento só seu, que torna você ainda mais
-                    bonita. Selecionamos e treinamos os melhores profissionais e pensamos com muito carinho em tudo de que você precisa para ter uma experiência inesquecível.</a>
-               </div>
+                  Está com vontade de mudar o visual, fazer um novo corte nos cabelos, mudar o penteado ou simplesmente trocar de esmalte? Esse é o espaço para um momento só seu, que torna você ainda mais
+                    bonita. Selecionamos e treinamos os melhores profissionais e pensamos com muito carinho em tudo de que você precisa para ter uma experiência inesquecível.
+                </a>
             </div>
 
             <div class="tinta col-md-3 col-sm-6 col-xs-12">
                 <img src="public/img/LAB.jpg" class="img-responsive circle-img">
                 <br>
                 <p class="circle-content-p"><a href="lab" class="no_link">LAB</a></p>
-                <div class="bgTintaHover" id="hoverLab">
+                <a href="lab" class="bgTintaHover no_link" id="hoverLab">
                     <img src="public/img/blink_lab.png" /><br>
-                    <a href="lab" class="no_link">
+
                       A blink.me foi criada para ser o seu momento. Mas, se você quiser, cabe mais gente. Foi pensando nisso que o Lab da blink.me foi criado para você se reunir com quem quiser. O nosso espaço
                      pode ser usado tanto para eventos pessoais quanto corporativos. O momento é seu e você escolhe o que fazer com ele. Para saber mais informações sobre a locação desse espaço, entre em contato conosco.
-                    </a>
-                </div>
+
+                </a>
             </div>
 
             <div class="tinta col-md-3 col-sm-6 col-xs-12">
                 <img src="public/img/other.jpg" class="img-responsive circle-img">
                 <br>
                 <p class="circle-content-p"><a href="https://www.instagram.com/explore/tags/blinkmemoment/" class="no_link">Studio</a></p>
-                <div class="bgTintaHover" id="hoverStudio">
+                <a href="https://www.instagram.com/explore/tags/blinkmemoment/" class="bgTintaHover no_link" id="hoverStudio">
                     <img src="public/img/blink_studio.png" /><br>
-                    <a href="https://www.instagram.com/explore/tags/blinkmemoment/" class="no_link">Depois de uma superprodução no nosso atelier, nada mais justo do que eternizar o momento com uma foto. Por isso, contamos com um cantinho exclusivo para tirar aquela foto profissional e
-                    publicar nas redes sociais. Ou, se você for do tipo reservada, só guardar como recordação para se lembrar do quanto é maravilhosa. #blinkmemoment</a>
-                </div>
+                  epois de uma superprodução no nosso atelier, nada mais justo do que eternizar o momento com uma foto. Por isso, contamos com um cantinho exclusivo para tirar aquela foto profissional e
+                    publicar nas redes sociais. Ou, se você for do tipo reservada, só guardar como recordação para se lembrar do quanto é maravilhosa. #blinkmemoment
+                </a>
             </div>
         </div>
     </section>

@@ -39,14 +39,12 @@
             </p>
 
             <p>
-              É ter acesso online a um histórico inédito super personalizado dos produtos e serviços utilizados;promoçõe
-              exclusivas;desconto de 15% em todos os serviços do salão e em alguns produtos pré-selecionados;além de resgate
-              anual de 3% do seu dinheiro. Sim, 3% de tudo o que você gastou com a gente.
+              É ter acesso online a um histórico inédito super personalizado dos produtos e serviços utilizados; promoções
+              exclusivas; desconto em todos os serviços do salão e em alguns produtos pré-selecionados;
             </p>
 
             <p>
-              E a taxa de adesão é, na verdade um investimento. São R$50 reais diluídos ao longo de todo o ano e que traz
-              vantages exclusivas para você. Para ter acesso a tudo isso basta se cadastrar, fechar os olhos e aproveitar.
+              Para ter acesso a tudo isso basta se cadastrar, fechar os olhos e aproveitar.
             </p>
           </div>
         </div>
