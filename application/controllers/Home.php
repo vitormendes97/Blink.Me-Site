@@ -65,9 +65,11 @@ class Home extends CI_Controller {
 
 	public function cosmetics()
 	{
+		$this->load->model('Assets');
+		$data['marcas'] = $this->Assets->carregarMarcasCosmetics();
 		$this->load->view('head');
 		$this->load->view('header');
-		$this->load->view('cosmetics');
+		$this->load->view('cosmetics',$data);
 		$this->load->view('footer');
 	}
 
@@ -94,5 +96,12 @@ class Home extends CI_Controller {
 		$this->load->view('hair');
 		$this->load->view('footer');
 	}
+
+ public function teste()
+ {
+	 $this->load->model('Assets');
+	 $data['marcas'] = $this->Assets->carregarMarcasCosmetics();
+	 var_dump($data['marcas']);
+ }
 
 }

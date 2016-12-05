@@ -455,6 +455,7 @@ body{
 
 #submenu_geral {
   z-index: 99;
+  display: block;
 }
 
 .login-circle{
@@ -526,7 +527,7 @@ body{
   cursor: pointer;
 }
 .open {
-  display: none;
+  display: none !important;
 }
 .tinta-text {
   padding: 3% 0% 2% 0%;
@@ -796,10 +797,6 @@ margin-left: -27px;
   background: #000;
 }
 
-.grid-sizer {
-  width: 20%;
-}
-
 .grid-item--padrao { width: 20%;}
 
 .grid-item--height2 { height: 380px; }
@@ -896,3 +893,12 @@ margin-left: -27px;
       width: 180%;
       margin-top: -167%;
   }
+
+.marcas-box {
+  border: 1px solid #000;
+  border-radius: 50px;
+}
+
+.left carousel-control , .right carousel-control {
+  background: none;
+}

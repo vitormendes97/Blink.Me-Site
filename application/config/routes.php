@@ -62,3 +62,4 @@ $route['cosmetics'] = 'Home/cosmetics';
 $route['nails'] = 'Home/nails';
 $route['makeup'] = 'Home/makeup';
 $route['hair'] = 'Home/atelier';
+$route['teste'] = 'Home/teste';

@@ -3,7 +3,9 @@
        <div class="container">
             <div class="row">
                <div class="col-md-6 col-sm-6 col-xs-12" style="background:#ed4810;">
+                 <a href="home">
                   <img id="logo-footer" src="public/img/banner_footer_.png">
+                 </a>
                </div>
                 <div class="col-md-6 col-sm-6 col-xs-12" style="    padding: 30px 20px;">
                   <p>Av.Giovanni Gronchi,5930 - Vila Andrade, São Paulo - SP | Morumbi Town</p>

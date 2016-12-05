@@ -26,11 +26,11 @@
 
         <div class="col-md-8" style="color:#888;">
           <h2 style="color:#000;" class="centralize-responsive">HAIR</h2>
-          <p>Como não poderia ser diferente, no nosso Atelier todos os  profissionais especializados em cabelos
-          têm o padrão blink.me de qualidade. Isso significa talento, bom gosto e as melhores técnicas para corte,
-         coloração, luzes, mechas e penteados.</p>
-         <p>Mas, como nem só de aparência vivem os cabelos, nos preocupamos em cuidar profundamente dos seus fios,
-         por meio de técnicas como o bordado e tratamentos de reconstrução.</p>
+          <p>Como não poderia ser diferente, no nosso Atelier todos os profissionais especializados em cabelos
+              têm o padrão blink.me de qualidade. E para garantir a excelência, temos a honra de contar com
+              parceiros incríveis. A Joe Academy garante os melhores métodos de cortes de cabelo e
+              escovas e o Instituto Liceu assegura a atualização do olhar dos nossos profissionais no que diz
+              respeito a penteados.</p>
         </div>
         <div class="col-md-12" style="color:#888;padding-top:4%;">
           <p>Para que tudo isso aconteça com excelência, temos a honra de contar com parceiros incríveis. A Joe Academy
@@ -47,31 +47,30 @@
       </div>
     </div>
 
-    <div class="" style="padding:0;">
+    <div class="container-fluid" style="padding:0;">
       <!-- add extra container element for Masonry -->
       <div class="grid">
 
-        <div class="grid-sizer"></div>
         <div class="grid-item grid-item--padrao" style="background:#F18962;">
           1
         </div>
-        <div class="grid-item grid-item--height2 grid-item--padrao2" style="background:RED;">
+        <div class="grid-item grid-item--height2 grid-item--padrao" style="background:RED;">
           <p class="text-center">2</p>
         </div>
         <div class="grid-item grid-item--padrao" style="background:#F2A88B;">
           3
         </div>
         <div class="grid-item grid-item--padrao" style="background:green;">4</div>
-        <div class="grid-item grid-item--height2 grid-item--padrao2">
+        <div class="grid-item grid-item--height2 grid-item--padrao">
         <p>5</p>
         </div>
-          <div class="grid-item  grid-item--padrao2 grid-item--height2 ">
+          <div class="grid-item  grid-item--padrao grid-item--height2 ">
             <p class="text-center">6</p>
           </div>
           <div class="grid-item  grid-item--padrao">
             <p class="text-center">7</p>
           </div>
-          <div class="grid-item  grid-item--padrao2 grid-item--height2" style="background:#EF5A20;">
+          <div class="grid-item  grid-item--padrao grid-item--height2" style="background:#EF5A20;">
             <p class="text-center">8</p>
           </div>
           <div class="grid-item grid-item--padrao" style="background:#EF5A20;">9</div>

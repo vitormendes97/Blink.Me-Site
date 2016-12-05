@@ -41,7 +41,7 @@
 
   <div class="container" id="portifolio_hair">
     <div class="col-md-12">
-      <p class="centralize-responsive">Portifólio <span style="font-family:cursive">/</span>Hair</p>
+      <p class="centralize-responsive">Portifólio <span style="font-family:cursive">/</span>Nails</p>
     </div>
   </div>
 
