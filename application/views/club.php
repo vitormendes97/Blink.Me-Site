@@ -2,7 +2,7 @@
     <section>
       <div class="container" style="padding-bottom:8%;">
         <div class="col-md-12"id="welcome_club_title">
-          <h2 class="text-center">Bem vindo ao Club</h2>
+          <h2 class="text-center">Em breve voc<span style="font-family:cursive;">ê</span> poder<span style="font-family:cursive;">á</span> se associar ao Clube</h2>
         </div>
 
         <div class="col-md-12 col-sm-12">
