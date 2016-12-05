@@ -30,16 +30,15 @@
 
 Nessa sessão, a gente se preocupa em realçar a beleza do seu rosto. Por isso, quando a gente fala em make, a gente está indo muito além de um pozinho básico.
         </p>
+        <p class="centralize-responsive text-left reklame-config manifesto_referencia" style="margin-bottom:0;">“… para voce que
+          sabe o momento de passar um blush e entender o poder de um batom<span style="font-family:cursive;">,</span> de um sorriso<span style="font-family:cursive;">,</span> de um novo tom”</p>
+
+        </div>
+      <div class="col-md-12" style="color:#888;padding-top:4%;">
         <p>
           Também estamos falando de sobrancelha. De design e micropigmentação. Estamos falando de cílios, sejam eles permanentes ou não. A maquiagem pode, inclusive, ser completa ou express. Mas, a intenção é que quando você se olhe no espelho, o que reflita seja sempre um momento surpreendentemente inesquecível.
         </p>
-        </div>
-      <!-- <div class="col-md-12" style="color:#888;padding-top:4%;">
-        <p>Para que tudo isso aconteça com excelência, temos a honra de contar com parceiros incríveis. A Joe Academy
-        garante os melhores métodos de cortes de cabelo e escovas e o Instituto Liceu assegura a atualização do olhar
-        dos nossos profissionais para que há de mais atual e diferenciado no que diz respeito a penteados.
-        </p>
-      </div> -->
+      </div>
     </div>
   </div>
 

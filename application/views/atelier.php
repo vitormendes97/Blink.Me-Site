@@ -33,6 +33,10 @@
               respeito a penteados.</p>
         </div>
         <div class="col-md-12" style="color:#888;padding-top:4%;">
+
+          <p class="centralize-responsive text-left reklame-config manifesto_referencia">“… para voce que gosta de um novo visual e arrisca penteados
+e cortes de cabelo sem medo de errar… ”</p>
+
           <p>Para que tudo isso aconteça com excelência, temos a honra de contar com parceiros incríveis. A Joe Academy
           garante os melhores métodos de cortes de cabelo e escovas e o Instituto Liceu assegura a atualização do olhar
           dos nossos profissionais para que há de mais atual e diferenciado no que diz respeito a penteados.

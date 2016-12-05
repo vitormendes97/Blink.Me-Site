@@ -28,14 +28,15 @@
         <h2 style="color:#000;" class="centralize-responsive">NAILS</h2>
         <p>Você pode fazer um simples pé e mão ou ir além, com gel ou não, os levando a um verdadeiro spa. Seja como for, garantimos que eles serão muitíssimo bem tratados.
         </p>
-        <p>Serão colocados para relaxar, serão esfoliados, hidratados com máscara e, por fim, massageados. Mas, é claro: quem sai sem tensão nenhuma é você. Sente-se confortavelmente, escolha o pedido de hoje no nosso cardápio e aproveite o momento. </p>
+        <p class="centralize-responsive text-left reklame-config manifesto_referencia" style="margin-bottom:0;">“Para voce que nao se intimida com o corre corre da vida e
+pinta as unhas toda semana para marcar os momentos com o
+seu toque colorido”</p>
+
+
       </div>
-      <!-- <div class="col-md-12" style="color:#888;padding-top:4%;">
-        <p>Para que tudo isso aconteça com excelência, temos a honra de contar com parceiros incríveis. A Joe Academy
-        garante os melhores métodos de cortes de cabelo e escovas e o Instituto Liceu assegura a atualização do olhar
-        dos nossos profissionais para que há de mais atual e diferenciado no que diz respeito a penteados.
-        </p>
-      </div> -->
+      <div class="col-md-12" style="color:#888;padding-top:4%;">
+      <p>Serão colocados para relaxar, serão esfoliados, hidratados com máscara e, por fim, massageados. Mas, é claro: quem sai sem tensão nenhuma é você. Sente-se confortavelmente, escolha o pedido de hoje no nosso cardápio e aproveite o momento. </p>
+      </div>
     </div>
   </div>
 

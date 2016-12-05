@@ -927,3 +927,11 @@ margin-left: -27px;
     z-index: 98;
     display: none;
 }
+
+.manifesto_referencia {
+  color:#000;
+  font-size: 29px;
+  width: 450px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
