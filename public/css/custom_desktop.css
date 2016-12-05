@@ -896,9 +896,19 @@ margin-left: -27px;
 
 .marcas-box {
   border: 1px solid #000;
-  border-radius: 50px;
+  border-radius: 5px;
+  margin: 5px;
 }
 
 .left carousel-control , .right carousel-control {
   background: none;
+}
+
+.no_link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.no_link:hover {
+  color: #fff;
 }

@@ -20,6 +20,16 @@
           }
           return $images;
         }
+
+        public function separarArrays($array = null)
+        {
+
+          if($array != null){
+            $array = array_chunk($array,9);
+          }
+
+          return $array;
+        }
   }
 
 ?>

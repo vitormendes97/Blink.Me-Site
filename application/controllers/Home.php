@@ -101,7 +101,8 @@ class Home extends CI_Controller {
  {
 	 $this->load->model('Assets');
 	 $data['marcas'] = $this->Assets->carregarMarcasCosmetics();
-	 var_dump($data['marcas']);
+	//  $data['marcas'] = $this->Assets->separarArrays($data['marcas']);
+	var_dump($data['marcas']);
  }
 
 }

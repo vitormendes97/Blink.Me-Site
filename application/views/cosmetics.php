@@ -9,39 +9,51 @@
           </div>
           <div class="col-md-12">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+              <?php
+              $paginas = 0;
+              $itens = 1;
+              $totalMarcas = count($marcas);
+              for ($i=0; $i < $totalMarcas ; $i++) {
+                  if($itens == 1) {
+                     $active = $paginas==0 ? 'active' : '';
+                     echo '<div class="item '.$active.'">';
+                   } ?>
+                        <div class="col-md-3 col-xs-6 col-sm-3">
+                          <div class="marcas-box">
+                            <img src="<?php echo $marcas[$i]; ?>" alt="" style="width:100%;border-radius:5px;">
+                          </div>
+                        </div>
+                  <?php if($itens==16){
+                    echo '</div>';
+                    $itens=0;
+                    $paginas++;
+                  }
+                  $itens++;
+                  ?>
+              <?php }
+              echo $totalMarcas%16>0 ? '</div>' : '';
+              ?>
+              </div>
 
-      <div class="row">
-        <?php foreach ($marcas as $img){ ?>
-        <div class="col-md-4">
-          <div class="marcas-box">
-            <img src="<?php echo $img; ?>" alt="" style="width:100%;height:124px;border-radius:50px;">
-          </div>
-        </div>
-        <?php } ?>
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" style="background:none;" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" style="background:none;" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+              <!-- Controls -->
+              <a class="left carousel-control" style="background:none;" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" style="background:none;" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
       </div>
       <div class="col-md-5">
