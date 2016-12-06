@@ -24,28 +24,29 @@
         <div class="col-md-12 mobile_title_center">
           <strong style="color:black;letter-spacing:3px;">CONTATO</strong>
         </div>
-        <form class="form-horizontal" id="contato-form" style="color:#888;">
+        <form class="form-horizontal" action="<?php echo base_url('Email/enviar_email') ?>" method="POST" id="contato-form" style="color:#888;">
+            <input type="hidden" name="titulo" value="Nova mensagem da Área de Contatos">
             <div class="form-group">
               <div class="col-md-12">
-                <input type="text" class="form-control" id="contato_nome" placeholder="Nome*">
+                <input type="text" class="form-control" name="nome" id="contato_nome" placeholder="Nome*">
               </div>
             </div>
 
             <div class="form-group">
               <div class="col-md-12">
-                <input type="email" class="form-control" id="contato_telefone" placeholder="Telefone*">
+                <input type="text" class="form-control" id="contato_telefone" placeholder="Telefone*">
               </div>
             </div>
 
             <div class="form-group">
               <div class="col-md-12">
-                <input type="email" class="form-control" id="contato_email" placeholder="Email*">
+                <input type="email" class="form-control" id="contato_email" name="email" placeholder="Email*">
               </div>
             </div>
 
             <div class="form-group">
               <div class="col-md-12">
-                  <textarea style="width:100%;" class="textarea" rows="6" cols="80"></textarea>
+                  <textarea style="width:100%;" name="assunto" class="textarea" rows="6" cols="80"></textarea>
               </div>
               <div class="col-md-12" id="contato_enviar">
                 <input type="submit"  value="ENVIAR">

@@ -73,6 +73,9 @@
                 <li>Klass Vough</li>
                 <li>Real Techniques</li>
                 <li>Tweezerman</li>
+                <li>Dior</li>
+                <li>Mundial Personal Care</li>
+                <li>Shiseido</li>
               </ul>
             </li>
             <li>PERFUMES
@@ -107,15 +110,7 @@
                 <li>Y.S.Laurent</li>
               </ul>
             </li>
-            <li>TRATAMENTO
-              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer closed"></i>
-              <ul class="cosmetics_menu">
-                <li>Jacki Design</li>
-                <li>Klass Vough</li>
-                <li>Real Techniques</li>
-                <li>Tweezerman</li>
-              </ul>
-            </li>
+            
             <li>CORPO E BANHO
               <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer closed"></i>
               <ul class="cosmetics_menu">
@@ -176,7 +171,23 @@
                 <li>Surya</li>
               </ul>
             </li>
-            <li>ACESSÓRIOS
+            <li>NAILS
+              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer closed"></i>
+              <ul class="cosmetics_menu">
+                <li>Alessandro International</li>
+                <li>Dior</li>
+                <li>Impala</li>
+                <li>Morgan Taylor</li>
+                <li>Risqué</li>
+                <li>Surya</li>
+                <li>Vult</li>
+                <li>Kiss NY</li>
+                <li>Mundial</li>
+                <li>Oceane</li>
+                <li>Tweezerman</li>
+              </ul>
+            </li>
+            <!-- <li>ACESSÓRIOS
               <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer closed"></i>
               <ul class="cosmetics_menu">
                 <li> Hair<i class="glyphicon glyphicon-menu-down pull-right cursor-pointer sub_menu_closed"></i>
@@ -208,7 +219,7 @@
                   </ul>
                 </li>
               </ul>
-            </li>
+            </li> -->
           </ul>
         </div>
 

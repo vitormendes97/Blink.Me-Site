@@ -99,10 +99,11 @@ class Home extends CI_Controller {
 
  public function teste()
  {
-	 $this->load->model('Assets');
-	 $data['marcas'] = $this->Assets->carregarMarcasCosmetics();
+	//  $this->load->model('Assets');
+	//  $data['marcas'] = $this->Assets->carregarMarcasCosmetics();
 	//  $data['marcas'] = $this->Assets->separarArrays($data['marcas']);
-	var_dump($data['marcas']);
+	//  var_dump($data['marcas']);
+	$this->load->view('custom_email');
  }
 
 }

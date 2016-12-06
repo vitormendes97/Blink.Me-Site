@@ -1,4 +1,4 @@
-<?php
+	<?php
 /**
  * CodeIgniter
  *
@@ -69,7 +69,7 @@ class CI_Email {
 	 *
 	 * @var	string	'mail', 'sendmail' or 'smtp'
 	 */
-	public $protocol	= 'mail';		// mail/sendmail/smtp
+	public $protocol	= 'smtp';		// mail/sendmail/smtp
 
 	/**
 	 * STMP Server host
@@ -97,7 +97,7 @@ class CI_Email {
 	 *
 	 * @var	int
 	 */
-	public $smtp_port	= 25;
+	public $smtp_port	= '465';
 
 	/**
 	 * SMTP connection timeout in seconds

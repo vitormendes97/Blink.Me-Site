@@ -90,26 +90,23 @@ e cortes de cabelo sem medo de errar… ”</p>
     <div class="container-fluid" style="padding:40px 0px 40px 0px;background:#FDAF17;">
         <div class="col-md-12">
           <img src="<?php echo base_url('public/img/blink_club.png') ?>" class="img_center img_cardapio" alt="">
-          <p class="Reklame-font" style="color:#000;">Escolha o <span style="color:#fff;">moment</span> que vai te fazer brilhar</p>
+          <!-- <p class="Reklame-font" style="color:#000;">Escolha o <span style="color:#fff;">moment</span> que vai te fazer brilhar</p> -->
         </div>
         <div class="col-md-12">
           <div class="col-md-3 col-md-offset-3">
             <table class="table table-cardapio">
               <tr>
                 <td class="td-sm td-xs">Hidratacao Simples
-                    <p style="font-family:myRiad;font-size:14px;margin:0;">(Coloração)</p>
                 </td>
                 <td><span class="real">R$</span>49<span class="centavos">,00</span></td>
               </tr>
               <tr>
                 <td>Reconstrucao Simples
-                    <p style="font-family:myRiad;font-size:14px;margin:0;">(Tratamento)</p>
                 </td>
                 <td><span class="real">R$</span>179<span class="centavos">,00</span></td>
               </tr>
               <tr>
                 <td>Reconstrucao Completa
-                    <p style="font-family:myRiad;font-size:14px;margin:0;">(Tratamento)</p>
                 </td>
                 <td><span class="real">R$</span>219<span class="centavos">,00</span></td>
               </tr>
@@ -139,13 +136,11 @@ e cortes de cabelo sem medo de errar… ”</p>
             <table class="table table-cardapio">
               <tr>
                 <td class="td-sm td-xs">Escova Express
-                    <p style="font-family:myRiad;font-size:14px;margin:0;">(lavar + escovar)</p>
                 </td>
                 <td><span class="real">R$</span>89<span class="centavos">,00</span></td>
               </tr>
               <tr>
                 <td>Escova Completa
-                    <p style="font-family:myRiad;font-size:14px;margin:0;">(lavar + hidratar + escovar)</p>
                 </td>
                 <td><span class="real">R$</span>149<span class="centavos">,00</span>
                 </td>
@@ -176,6 +171,18 @@ e cortes de cabelo sem medo de errar… ”</p>
               </tr>
             </table>
           </div>
+        </div>
+        <div class="col-md-12">
+          <p style="font-family:myRiad;text-align:center;font-size:25px;color:#000;">siga nossas redes sociais!</p>
+        </div>
+        <div class="col-md-12" style="text-align:center;">
+          <a href="https://www.instagram.com/blinkmebr/" class="no_link" style="color:#000;">
+            <i class="fa fa-instagram" aria-hidden="true"></i>@blinkmebr
+          </a>
+
+          <a href="https://www.facebook.com/Blinkme-281785548886159/?fref=ts" class="no_link" style="color:#000;">
+            <i class="fa fa-facebook" aria-hidden="true"></i>/blinkme
+          </a>
         </div>
     </div>
     <section>

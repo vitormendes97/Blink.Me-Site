@@ -87,7 +87,7 @@ seu toque colorido”</p>
   <div class="container-fluid" style="padding:40px 0px 40px 0px;background:#FDAF17;">
       <div class="col-md-12">
         <img src="<?php echo base_url('public/img/blink_club.png') ?>" class="img_center img_cardapio" alt="">
-        <p class="Reklame-font" style="color:#000;">Escolha o <span style="color:#fff;">moment</span> que vai te fazer brilhar</p>
+        <!-- <p class="Reklame-font" style="color:#000;">Escolha o <span style="color:#fff;">moment</span> que vai te fazer brilhar</p> -->
       </div>
       <div class="col-md-12">
         <div class="col-md-3 col-md-offset-3">
@@ -131,6 +131,18 @@ seu toque colorido”</p>
             </tr>
           </table>
         </div>
+      </div>
+      <div class="col-md-12">
+        <p style="font-family:myRiad;text-align:center;font-size:25px;color:#000;">siga nossas redes sociais!</p>
+      </div>
+      <div class="col-md-12" style="text-align:center;">
+        <a href="https://www.instagram.com/blinkmebr/" class="no_link" style="color:#000;">
+          <i class="fa fa-instagram" aria-hidden="true"></i>@blinkmebr
+        </a>
+
+        <a href="https://www.facebook.com/Blinkme-281785548886159/?fref=ts" class="no_link" style="color:#000;">
+          <i class="fa fa-facebook" aria-hidden="true"></i>/blinkme
+        </a>
       </div>
   </div>
 
