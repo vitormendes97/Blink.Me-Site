@@ -20,15 +20,15 @@
                     <li><a class="ancora" href="home" style="color:#fff; font-family: MyRiad;font-size: 19px;">HOME<span class="sr-only">(current)</span></a></li>
 
                     <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                      aria-haspopup="true" aria-expanded="false" style="color:#fff; font-family:MyRiad;font-size: 19px;cursos:pointer;">ATELIER <span class="caret"></span></a>
+
+                      <a  class="dropdown-toggle" data-toggle="dropdown" role="button"
+                      aria-haspopup="true" aria-expanded="false" style="color:#fff; font-family:MyRiad;font-size: 19px;cursor-pointer">ATELIER <span class="caret"></span></a>
                       <ul class="dropdown-menu">
                           <li><a href="hair">HAIR</a></li>
                           <li><a href="nails">NAIL</a></li>
                           <li><a href="makeup">MAKEUP</a></li>
                       </ul>
                     </li>
-
                     <li><a class="ancora" href="cosmetics" style="color:#fff; font-family: MyRiad;font-size: 19px;">COSMETICS</a></li>
 
                     <li><a class="ancora" href="lab" style="color:#fff; font-family: MyRiad;font-size: 19px;">LAB</a></li>
@@ -79,7 +79,7 @@
     </div>
 
     <!--MENUS Desktop-->
-    <div class="col-md-3 col-md-offset-9 open" id="submenu_geral">
+    <div class="col-md-3 col-md-offset-9 menu-main-closed" id="submenu_geral">
         <div class="menu-desktop riad-bold">
             <ul>
                 <li><a href="home">HOME</a></li>

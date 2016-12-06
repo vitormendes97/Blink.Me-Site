@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  toggleClass('#menu','#submenu_geral','open');
+  toggleClass('#menu','#submenu_geral','menu-main-closed');
 
   $('.grid').masonry({
     itemSelector: '.grid-item',
@@ -7,7 +7,7 @@ $(document).ready(function(){
   });
 
   $('.sair').click(function(){
-    $('#submenu_geral').addClass('open');
+    $('#submenu_geral').addClass('menu-main-closed');
   $('.sair').hide();
   });
 

@@ -526,7 +526,7 @@ body{
 #menu {
   cursor: pointer;
 }
-.open {
+.menu-main-closed {
   display: none !important;
 }
 .tinta-text {
