@@ -88,6 +88,54 @@ Nessa sessão, a gente se preocupa em realçar a beleza do seu rosto. Por isso, 
     </div>
   </div>
 
+  <div class="container-fluid" style="padding:40px 0px 40px 0px;background:#FDAF17;">
+      <div class="col-md-12">
+        <img src="<?php echo base_url('public/img/blink_club.png') ?>" class="img_center img_cardapio" alt="">
+        <p class="Reklame-font" style="color:#000;">Escolha o <span style="color:#fff;">moment</span> que vai te fazer brilhar</p>
+      </div>
+      <div class="col-md-12">
+        <div class="col-md-3 col-md-offset-3">
+          <table class="table table-cardapio">
+            <tr>
+              <td class="td-sm td-xs">Makeup Completa</td>
+              <td><span class="real">R$</span>179<span class="centavos">,00</span></td>
+            </tr>
+            <tr>
+              <td>Makeup Express</td>
+              <td><span class="real">R$</span>99<span class="centavos">,00</span></td>
+            </tr>
+            <tr>
+              <td>Design de Sobrancelha</td>
+              <td><span class="real">R$</span>79<span class="centavos">,00</span></td>
+            </tr>
+            <tr>
+              <td>Micropigmentacao de Sobrancelha</td>
+              <td><span class="real">R$</span>800<span class="centavos">,00</span></td>
+            </tr>
+
+          </table>
+        </div>
+        <div class="col-md-3">
+          <table class="table table-cardapio">
+            <tr>
+              <td class="td-sm td-xs">Permanente de Cilios</td>
+              <td><span class="real">R$</span>279<span class="centavos">,00</span></td>
+            </tr>
+
+            <tr>
+              <td>Cilios
+                  <p style="font-family:myRiad;font-size:14px;margin:0;">(somente aplicação-comprar na loja)</p></td>
+              <td><span class="real">R$</span>39<span class="centavos">,00</span></td>
+            </tr>
+            <tr>
+              <td>Manutencao de Sobrancelha</td>
+              <td><span class="real">R$</span>39<span class="centavos">,00</span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+  </div>
+
   <section>
     <div class="container-fluid">
       <div class="row" style="background:#A3A3A3;padding-bottom:4%;">

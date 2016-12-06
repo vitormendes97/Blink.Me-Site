@@ -87,7 +87,97 @@ e cortes de cabelo sem medo de errar… ”</p>
 
       </div>
     </div>
-
+    <div class="container-fluid" style="padding:40px 0px 40px 0px;background:#FDAF17;">
+        <div class="col-md-12">
+          <img src="<?php echo base_url('public/img/blink_club.png') ?>" class="img_center img_cardapio" alt="">
+          <p class="Reklame-font" style="color:#000;">Escolha o <span style="color:#fff;">moment</span> que vai te fazer brilhar</p>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-3 col-md-offset-3">
+            <table class="table table-cardapio">
+              <tr>
+                <td class="td-sm td-xs">Hidratacao Simples
+                    <p style="font-family:myRiad;font-size:14px;margin:0;">(Coloração)</p>
+                </td>
+                <td><span class="real">R$</span>49<span class="centavos">,00</span></td>
+              </tr>
+              <tr>
+                <td>Reconstrucao Simples
+                    <p style="font-family:myRiad;font-size:14px;margin:0;">(Tratamento)</p>
+                </td>
+                <td><span class="real">R$</span>179<span class="centavos">,00</span></td>
+              </tr>
+              <tr>
+                <td>Reconstrucao Completa
+                    <p style="font-family:myRiad;font-size:14px;margin:0;">(Tratamento)</p>
+                </td>
+                <td><span class="real">R$</span>219<span class="centavos">,00</span></td>
+              </tr>
+              <tr>
+                <td>Barba</td>
+                <td><span class="real">R$</span>59<span class="centavos">,00</span></td>
+              </tr>
+              <tr>
+                <td>Corte Maquina</td>
+                <td><span class="real">R$</span>59<span class="centavos">,00</span></td>
+              </tr>
+              <tr>
+                <td>Corte Infantil</td>
+                <td><span class="real">R$</span>49<span class="centavos">,00</span></td>
+              </tr>
+              <tr>
+                <td>Corte Feminino</td>
+                <td><span class="real">R$</span>129<span class="centavos">,00</span></td>
+              </tr>
+              <tr>
+                <td>Corte Masculino</td>
+                <td><span class="real">R$</span>79<span class="centavos">,00</span></td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-md-3">
+            <table class="table table-cardapio">
+              <tr>
+                <td class="td-sm td-xs">Escova Express
+                    <p style="font-family:myRiad;font-size:14px;margin:0;">(lavar + escovar)</p>
+                </td>
+                <td><span class="real">R$</span>89<span class="centavos">,00</span></td>
+              </tr>
+              <tr>
+                <td>Escova Completa
+                    <p style="font-family:myRiad;font-size:14px;margin:0;">(lavar + hidratar + escovar)</p>
+                </td>
+                <td><span class="real">R$</span>149<span class="centavos">,00</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Coloracao</td>
+                <td><span class="real">R$</span>169<span class="centavos">,00</span></td>
+              </tr>
+              <tr>
+                <td>Luzes <span style="font-family:cursive;">/</span> Mechas</td>
+                <td><span class="real">R$</span>389<span class="centavos">,00</span></td>
+              </tr>
+              <tr>
+                <td>Progressiva</td>
+                <td><span class="real">R$</span>299<span class="centavos">,00</span></td>
+              </tr>
+              <tr>
+                <td>Pentado Completo</td>
+                <td><span class="real">R$</span>179<span class="centavos">,00</span></td>
+              </tr>
+              <tr>
+                <td>Penteado Express</td>
+                <td><span class="real">R$</span>129<span class="centavos">,00</span></td>
+              </tr>
+              <tr>
+                <td>Protecao extra para luzes e Mechas</td>
+                <td><span class="real">R$</span>80<span class="centavos">,00</span></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+    </div>
     <section>
       <div class="container-fluid">
         <div class="row" style="background:#A3A3A3;padding-bottom:4%;">

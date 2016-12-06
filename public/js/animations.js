@@ -12,6 +12,17 @@ $(document).ready(function(){
   });
 
 
+  $('.closed').click(function() {
+       var index = $(this).parent().index();
+       $('.cosmetics_menu').eq(index).slideToggle("cosmetics_menu_open");
+   });
+
+   $('.sub_menu_closed').click(function() {
+        var index = $(this).parent().index();
+        $('.cosmetics_submenu').eq(index).slideToggle("cosmetics_menu_open");
+    });
+
+
 });
 
 

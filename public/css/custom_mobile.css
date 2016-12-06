@@ -321,6 +321,14 @@
   color:#000;
 }
 
+.img_cardapio {
+    width: 66%;
+}
+
+.td-xs  {
+  width: 76%;
+}
+
 
 }
 
@@ -497,5 +505,8 @@
   font-size: 24px;
 }
 
+.td-sm  {
+  width: 76%;
+}
 
 }

@@ -84,6 +84,56 @@ seu toque colorido”</p>
     </div>
   </div>
 
+  <div class="container-fluid" style="padding:40px 0px 40px 0px;background:#FDAF17;">
+      <div class="col-md-12">
+        <img src="<?php echo base_url('public/img/blink_club.png') ?>" class="img_center img_cardapio" alt="">
+        <p class="Reklame-font" style="color:#000;">Escolha o <span style="color:#fff;">moment</span> que vai te fazer brilhar</p>
+      </div>
+      <div class="col-md-12">
+        <div class="col-md-3 col-md-offset-3">
+          <table class="table table-cardapio">
+            <tr>
+              <td style="width:63%;">Pe</td>
+              <td><span class="real">R$</span>39<span class="centavos">,00</span></td>
+            </tr>
+            <tr>
+              <td>Mao</td>
+              <td><span class="real">R$</span>29<span class="centavos">,00</span></td>
+            </tr>
+            <tr>
+              <td>Esmaltacao Pe</td>
+              <td><span class="real">R$</span>29<span class="centavos">,00</span></td>
+            </tr>
+            <tr>
+              <td>Esmaltacao Mao</td>
+              <td><span class="real">R$</span>19<span class="centavos">,00</span></td>
+            </tr>
+
+          </table>
+        </div>
+        <div class="col-md-3">
+          <table class="table table-cardapio">
+            <tr style="width:63%;">
+              <td>Unha Gel</td>
+              <td><span class="real">R$</span>289<span class="centavos">,00</span></td>
+            </tr>
+            <tr>
+              <td>Francesinha Pe</td>
+              <td><span class="real">R$</span>14<span class="centavos">,00</span></td>
+            </tr>
+            <tr>
+              <td>Francesinha Mao</td>
+              <td><span class="real">R$</span>14<span class="centavos">,00</span></td>
+            </tr>
+            <tr>
+              <td>Esmalte Gel</td>
+              <td><span class="real">R$</span>260<span class="centavos">,00</span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+  </div>
+
   <section>
     <div class="container-fluid">
       <div class="row" style="background:#A3A3A3;padding-bottom:4%;">

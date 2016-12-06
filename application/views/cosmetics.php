@@ -67,19 +67,148 @@
         <div class="col-md-12">
           <ul class="main-menu font-bold">
             <li>MAQUIAGEM
-            <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer"></i></li>
+            <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer closed"></i>
+              <ul class="cosmetics_menu">
+                <li>Jacki Design</li>
+                <li>Klass Vough</li>
+                <li>Real Techniques</li>
+                <li>Tweezerman</li>
+              </ul>
+            </li>
             <li>PERFUMES
-              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer"></i></li>
+              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer closed"></i>
+              <ul class="cosmetics_menu">
+                <li>A.Banderas</li>
+                <li>Agatha Ruiz</li>
+                <li>Abercrombie & Fitch</li>
+                <li>Animale</li>
+                <li>Azzaro</li>
+                <li>Britney Spears</li>
+                <li>Burberry</li>
+                <li>Bvlgari</li>
+                <li>C.Herrera</li>
+                <li>Cacharel</li>
+                <li>Calvin Klein</li>
+                <li>Dior</li>
+                <li>Ferrari</li>
+                <li>G.Sabatini</li>
+                <li>Givenchy</li>
+                <li>Hugo Boss</li>
+                <li>Jimmy Choo</li>
+                <li>Juliana Paes</li>
+                <li>Kenzo</li>
+                <li>Lancôme</li>
+                <li>MontBlanc</li>
+                <li>Nina Ricci</li>
+                <li>P.Rabanne</li>
+                <li>Ralph Lauren</li>
+                <li>Salvador Dali</li>
+                <li>Tommy Hilfiger</li>
+                <li>Y.S.Laurent</li>
+              </ul>
+            </li>
             <li>TRATAMENTO
-              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer"></i></li>
+              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer closed"></i>
+              <ul class="cosmetics_menu">
+                <li>Jacki Design</li>
+                <li>Klass Vough</li>
+                <li>Real Techniques</li>
+                <li>Tweezerman</li>
+              </ul>
+            </li>
             <li>CORPO E BANHO
-              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer"></i></li>
+              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer closed"></i>
+              <ul class="cosmetics_menu">
+                <li>Australian Gold</li>
+                <li>Alessandro Internacional</li>
+                <li>Kapeh Cosméticos</li>
+                <li>Korres</li>
+                <li>Vinotage</li>
+                <li>Dermalogica</li>
+                <li>Dior</li>
+                <li>Lancôme</li>
+                <li>Nuxe</li>
+                <li>Shiseido</li>
+              </ul>
+            </li>
             <li>CABELOS
-              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer"></i></li>
+              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer closed"></i>
+              <ul class="cosmetics_menu">
+                <li>AcquaFlora</li>
+                <li>AlfaParf</li>
+                <li>Asian Secret</li>
+                <li>Cadiveu</li>
+                <li>Davines</li>
+                <li>GoldWell</li>
+                <li>Inoar</li>
+                <li>John Frieda</li>
+                <li>Joico</li>
+                <li>K.Pro</li>
+                <li>Kérastase</li>
+                <li>Keune</li>
+                <li>L'oréal Professionel</li>
+                <li>Lee Stafford</li>
+                <li>Living Proof</li>
+                <li>NG de France</li>
+                <li>Nioxin</li>
+                <li>Paul Mitchell</li>
+                <li>Phil Smith</li>
+                <li>Ponto 9</li>
+                <li>RedKen</li>
+                <li>Schwarzkopf Professional</li>
+                <li>SH-RD</li>
+                <li>Shiseido</li>
+                <li>Sweet Hair</li>
+                <li>Tigi</li>
+                <li>Wella Professionals</li>
+              </ul>
+            </li>
             <li>HOMEM
-              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer"></i></li>
+              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer closed"></i>
+              <ul class="cosmetics_menu">
+                <li>AcquaFlora</li>
+                <li>Dr.Jones</li>
+                <li>L'oréal Professionnel</li>
+                <li>Ponto 9</li>
+                <li>Redken</li>
+                <li>Shiseido</li>
+                <li>SobreBarba</li>
+                <li>Surya</li>
+              </ul>
+            </li>
             <li>ACESSÓRIOS
-              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer"></i></li>
+              <i class="glyphicon glyphicon-menu-down pull-right cursor-pointer closed"></i>
+              <ul class="cosmetics_menu">
+                <li> Hair<i class="glyphicon glyphicon-menu-down pull-right cursor-pointer sub_menu_closed"></i>
+                  <ul class="cosmetics_submenu">
+                    <li>Cine 732</li>
+                    <li>Finestra</li>
+                    <li>Juliana Manzini</li>
+                    <li>Linzi Clip</li>
+                  </ul>
+                </li>
+
+                <li> Nail<i class="glyphicon glyphicon-menu-down pull-right cursor-pointer sub_menu_closed"></i>
+                  <ul class="cosmetics_submenu">
+                    <li>Alessandro Internacional</li>
+                    <li>Dior</li>
+                    <li>Impala</li>
+                    <li>Mundial</li>
+                    <li>Oceane</li>
+                    <li>Tweezerman</li>
+                  </ul>
+                </li>
+
+                <li> Make<i class="glyphicon glyphicon-menu-down pull-right cursor-pointer sub_menu_closed"></i>
+                  <ul class="cosmetics_submenu">
+                    <li>Jacki Design</li>
+                    <li>Klass Vough</li>
+                    <li>Real Techniques</li>
+                    <li>Tweezerman</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
 

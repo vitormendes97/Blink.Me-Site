@@ -935,3 +935,46 @@ margin-left: -27px;
   margin: 0 auto;
   margin-bottom: 50px;
 }
+
+.cosmetics_menu {
+  list-style-type: square;
+  display: none;
+}
+
+.cosmetics_menu_open {
+  display: block;
+}
+
+.cosmetics_submenu {
+  display: none;
+}
+
+.img_center {
+  margin: 0 auto;
+  display: block;
+}
+
+.img_cardapio {
+  width: 20%;
+}
+
+.table-cardapio {
+  font-family: Reklame-Script;
+  color: #000;
+}
+
+.table-cardapio tr td:nth-child(1){
+  font-size: 26px;
+}
+.table-cardapio tr td:nth-child(2){
+  font-size: 30px;
+}
+.real {
+  font-size: 14px;
+  font-family: cursive;
+}
+
+.centavos {
+  font-family: cursive;
+  font-size: 16px;
+}
